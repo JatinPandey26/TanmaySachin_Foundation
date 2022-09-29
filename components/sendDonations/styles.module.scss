@@ -1,0 +1,35 @@
+.container{
+    margin:1rem auto;
+    color: white ;
+    text-align: center;
+
+    >div{
+        padding: 1rem 25%;
+        background-color: #6FB98F;
+        >h1{
+            color: #004445;
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+        >p{
+            margin-top: 1rem;
+            
+        }
+
+        @media screen and (max-width:800px){
+            padding: 1rem 15%;
+        }
+    }
+
+    >button{
+        margin-top: 3rem;
+        background-color: #6FB98F;
+        font-weight: lighter;
+        font-size: 0.7rem;
+        padding: 0.4rem 1.3rem;
+        margin: 2rem;
+        border-radius: 10px;
+    }
+
+    
+}
