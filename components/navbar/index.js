@@ -35,7 +35,7 @@ function Navbar() {
 										smooth={true}
 										offset={50}
 										duration={500}
-										className="cursor-pointer text-[#FFD800] text-[#FFD800] no-underline hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+										className="cursor-pointer text-[#FFD800] no-underline hover:text-white px-3 py-2 rounded-md text-sm font-medium"
 									>
 										Who we are
 									</Link>
@@ -45,7 +45,7 @@ function Navbar() {
 										smooth={true}
 										offset={50}
 										duration={500}
-										className="cursor-pointer text-[#FFD800] text-[#FFD800] no-underline hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+										className="cursor-pointer  text-[#FFD800] no-underline hover:text-white px-3 py-2 rounded-md text-sm font-medium"
 									>
 										What we do
 									</Link>
