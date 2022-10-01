@@ -11,21 +11,21 @@ function Navbar() {
 			<nav className=" shadow-sm bg-[#004445]  w-full z-10">
 				<div className="w-full">
 					<div className="flex items-center h-20 w-full">
-						<div className="flex items-center  mx-20  justify-between w-full">
-							<div className="flex justify-center items-center flex-shrink-0 ">
+						<div className="flex items-center  mx-10  justify-between w-full">
+							<div className="flex justify-start items-center flex-shrink-0 ">
 								
 									<Image src={'/TanmaySachinFoundation.png'} className = 'rounded-lg' layout = "intrinsic" width='80%'  height='70%'/>
 
 							</div>
 							<div className="hidden md:block">
-								<div className="ml-10 flex items-baseline space-x-4">
+								<div className="ml-10 flex items-baseline space-x-2">
 									<Link
 										activeClass="Home"
 										to="about"
 										smooth={true}
 										offset={50}
 										duration={500}
-										className="cursor-pointer text-[#FFD800] font-semibold px-3 no-underline py-2 text-md hover:text-white"
+										className="cursor-pointer text-[#FFD800] font-thin px-3 no-underline py-2 text-md hover:text-white"
 									>
 										Home
 									</Link>
@@ -35,7 +35,7 @@ function Navbar() {
 										smooth={true}
 										offset={50}
 										duration={500}
-										className="cursor-pointer text-[#FFD800] no-underline hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+										className="cursor-pointer text-[#FFD800] font-thin no-underline hover:text-white px-3 py-2 rounded-md text-sm font-medium"
 									>
 										Who we are
 									</Link>
@@ -45,7 +45,7 @@ function Navbar() {
 										smooth={true}
 										offset={50}
 										duration={500}
-										className="cursor-pointer  text-[#FFD800] no-underline hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+										className="cursor-pointer  text-[#FFD800]  font-thin no-underline hover:text-white px-3 py-2 rounded-md text-sm font-medium"
 									>
 										What we do
 									</Link>
@@ -56,12 +56,21 @@ function Navbar() {
 										smooth={true}
 										offset={50}
 										duration={500}
-										className="cursor-pointer  text-[#FFD800] hover:text-white px-3 py-2 no-underline rounded-md text-sm font-medium"
+										className="cursor-pointer  text-[#FFD800] font-light hover:text-white px-3 py-2 no-underline rounded-md text-sm font-medium"
 									>
 										Gallery
 									</Link>
 
-                  
+									<Link
+										activeClass="about"
+										to="about"
+										smooth={true}
+										offset={50}
+										duration={500}
+										className="cursor-pointer text-[#FFD800] text-[#FFD800]  font-thin no-underline hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+									>
+										Contact Us
+									</Link>
 
 									<Link
 										activeClass="contact"
@@ -69,7 +78,7 @@ function Navbar() {
 										smooth={true}
 										offset={50}
 										duration={500}
-										className="cursor-pointer no-underline bg-[#FFD800]  text-[#004445] px-3 py-2 rounded-[5rem] text-sm font-medium  hover:text-[#004445]"
+										className="cursor-pointer no-underline justify-self-end  bg-[#FFD800]  text-[#004445] px-3 py-2 rounded-[5rem] text-sm font-medium  hover:text-[#004445]"
 									>
 										Donate Now
 									</Link>
@@ -184,6 +193,17 @@ function Navbar() {
 									Gallery
 								</Link>
 
+								<Link
+									href="/services"
+									activeClass="services"
+									to="services"
+									smooth={true}
+									offset={50}
+									duration={500}
+									className="cursor-pointer hover:bg-[#004445] text-[#004445] no-underline hover:text-[#FFD800] block px-3 py-2 rounded-md text-base font-medium"
+								>
+									Contact Us
+								</Link>
                 
 
 								<Link
