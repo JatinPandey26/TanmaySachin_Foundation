@@ -1,0 +1,11 @@
+.listItems{
+    cursor: pointer;
+    color: #FFD800;
+    font-weight: lighter;
+    text-decoration: none;
+    
+    &:hover{
+        color: white;
+    }
+}
+
