@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
 import styles from './styles.module.scss'
-// import {Link} from 'next/link'
+
 import Image from "next/image";
 import Link from "next/link";
-// import Logo from "../public/streamlineLogo.png";
+
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
