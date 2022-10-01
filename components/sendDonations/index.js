@@ -10,7 +10,7 @@ const SendDonationBand = () => {
           Every donation will lead to a great future & Inspire many more
           people.No matter what you serve, what you donate what you give,each &
           every donation will make great impact & spread happiness. Donate and
-          get <span className="font-semibold text-[#FFD800]">80g TAX BENEFITS</span>
+          get <span className="font-semibold text-[#FFD800] italic">80g TAX BENEFITS</span>
         </p>
       </div>
       

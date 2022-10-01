@@ -1,4 +1,5 @@
-import Head from 'next/head'
+//import Head from 'next/head'
+import Footer from '../components/footer'
 import Navbar from '../components/navbar'
 import  RegBanner  from '../components/reginfobanner'
 import SendDonationBand from '../components/sendDonations'
@@ -14,6 +15,7 @@ export default function Home() {
     <RegBanner/>
     <WhoWeAreBand/>
     <SendDonationBand/>
+    <Footer/>
     </div>
   )
 }
