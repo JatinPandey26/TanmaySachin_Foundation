@@ -14,10 +14,10 @@ const Footer = () => {
         width="80%"
         height="70%"
       />
-      <h3 className="mt-4 text-2xl font-medium">TanmaySachin Foundation</h3>
+      <h3 className="mt-4 text-2xl font-medium text-center">TanmaySachin Foundation</h3>
       <div className="flex flex-col justify-center items-center my-2 mx-2 ">
         <div className="flex flex-col mx-auto items-center ">
-          <span className="">
+          <span className="text-center">
             C/O Preeti Sumant Karanje, A-Juve, P-Dalepal-Rajapur
           </span>
           <span>District- Ratnagiri, Juve, Ratnagiri</span>
@@ -45,7 +45,7 @@ const Footer = () => {
           Aditi Gemini
         </a>{" "}
         &{" "}
-        <a className="underline" href="">
+        <a className="underline" href="https://www.linkedin.com/in/jatin-pandey-18194b1a0/">
           Jatin Pandey
         </a>
       </span>

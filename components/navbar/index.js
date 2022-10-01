@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
-import styles from './styles.module.scss'
+import styles from "./styles.module.scss";
 
 import Image from "next/image";
 import Link from "next/link";
-
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -57,8 +56,9 @@ function Navbar() {
                     offset={50}
                     duration={500}
                   >
-					<a className="cursor-pointer text-[#FFD800] text-[#FFD800]  font-thin no-underline hover:text-white px-3 py-2 rounded-md text-sm font-medium">What we do</a>
-                    
+                    <a className="cursor-pointer text-[#FFD800] text-[#FFD800]  font-thin no-underline hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                      What we do
+                    </a>
                   </Link>
 
                   <Link
@@ -68,9 +68,10 @@ function Navbar() {
                     smooth={true}
                     offset={50}
                     duration={500}
-                    
                   >
-                    <a className="cursor-pointer  text-[#FFD800] font-light hover:text-white px-3 py-2 no-underline rounded-md text-sm font-medium">Gallery</a>
+                    <a className="cursor-pointer  text-[#FFD800] font-light hover:text-white px-3 py-2 no-underline rounded-md text-sm font-medium">
+                      Gallery
+                    </a>
                   </Link>
 
                   <Link
@@ -80,9 +81,10 @@ function Navbar() {
                     smooth={true}
                     offset={50}
                     duration={500}
-                    
                   >
-                    <a className="cursor-pointer text-[#FFD800] text-[#FFD800]  font-thin no-underline hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact Us</a>
+                    <a className="cursor-pointer text-[#FFD800] text-[#FFD800]  font-thin no-underline hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                      Contact Us
+                    </a>
                   </Link>
 
                   <Link
@@ -92,9 +94,10 @@ function Navbar() {
                     smooth={true}
                     offset={50}
                     duration={500}
-                   
                   >
-                    <a  className="wrapList cursor-pointer no-underline justify-self-end  bg-[#FFD800]  text-[#004445] px-3 py-2 rounded-[5rem] text-sm font-medium  hover:text-[#004445]">Donate Now</a>
+                    <a className="wrapList cursor-pointer no-underline justify-self-end  bg-[#FFD800]  text-[#004445] px-3 py-2 rounded-[5rem] text-sm font-medium  hover:text-[#004445]">
+                      Donate Now
+                    </a>
                   </Link>
                 </div>
               </div>
@@ -161,77 +164,81 @@ function Navbar() {
                 ref={ref}
                 className="bg-white px-2 pt-2 pb-3 text-center space-y-1 sm:px-3 flex flex-col"
               >
-                 <Link
-                    href="/"
-                    activeClass="Home"
-                    to="/"
-                    smooth={true}
-                    offset={50}
-                    duration={500}
-                  >
-                    <a className="cursor-pointer hover:bg-[#004445] text-[#004445] no-underline hover:text-[#FFD800] block px-3 py-2 rounded-md text-base font-medium">
-                      Home
-                    </a>
-                  </Link>
-                  <Link
-                    href="/whoweare"
-                    activeClass="about"
-                    to="/whoweare"
-                    smooth={true}
-                    offset={50}
-                    duration={500}
-                  >
-                    <a className="cursor-pointer hover:bg-[#004445] text-[#004445] no-underline hover:text-[#FFD800] block px-3 py-2 rounded-md text-base font-medium">
-                      Who we are
-                    </a>
-                  </Link>
-                  <Link
-                    href={"/whatwedo"}
-                    activeClass="work"
-                    to="work"
-                    smooth={true}
-                    offset={50}
-                    duration={500}
-                  >
-					<a className="cursor-pointer hover:bg-[#004445] text-[#004445] no-underline hover:text-[#FFD800] block px-3 py-2 rounded-md text-base font-medium">What we do</a>
-                    
-                  </Link>
+                <Link
+                  href="/"
+                  activeClass="Home"
+                  to="/"
+                  smooth={true}
+                  offset={50}
+                  duration={500}
+                >
+                  <a className="cursor-pointer hover:bg-[#004445] text-[#004445] no-underline hover:text-[#FFD800] block px-3 py-2 rounded-md text-base font-medium">
+                    Home
+                  </a>
+                </Link>
+                <Link
+                  href="/whoweare"
+                  activeClass="about"
+                  to="/whoweare"
+                  smooth={true}
+                  offset={50}
+                  duration={500}
+                >
+                  <a className="cursor-pointer hover:bg-[#004445] text-[#004445] no-underline hover:text-[#FFD800] block px-3 py-2 rounded-md text-base font-medium">
+                    Who we are
+                  </a>
+                </Link>
+                <Link
+                  href={"/whatwedo"}
+                  activeClass="work"
+                  to="work"
+                  smooth={true}
+                  offset={50}
+                  duration={500}
+                >
+                  <a className="cursor-pointer hover:bg-[#004445] text-[#004445] no-underline hover:text-[#FFD800] block px-3 py-2 rounded-md text-base font-medium">
+                    What we do
+                  </a>
+                </Link>
 
-                  <Link
-                    href={"/gallery"}
-                    activeClass="Services"
-                    to="work"
-                    smooth={true}
-                    offset={50}
-                    duration={500}
-                    
-                  >
-                    <a className="cursor-pointer hover:bg-[#004445] text-[#004445] no-underline hover:text-[#FFD800] block px-3 py-2 rounded-md text-base font-medium">Gallery</a>
-                  </Link>
+                <Link
+                  href={"/gallery"}
+                  activeClass="Services"
+                  to="work"
+                  smooth={true}
+                  offset={50}
+                  duration={500}
+                >
+                  <a className="cursor-pointer hover:bg-[#004445] text-[#004445] no-underline hover:text-[#FFD800] block px-3 py-2 rounded-md text-base font-medium">
+                    Gallery
+                  </a>
+                </Link>
 
-                  <Link
-                    href={"/contactus"}
-                    activeClass="about"
-                    to="about"
-                    smooth={true}
-                    offset={50}
-                    duration={500}
-                    
-                  >
-                    <a className="cursor-pointer hover:bg-[#004445] text-[#004445] no-underline hover:text-[#FFD800] block px-3 py-2 rounded-md text-base font-medium">Contact Us</a>
-                  </Link>
+                <Link
+                  href={"/contactus"}
+                  activeClass="about"
+                  to="about"
+                  smooth={true}
+                  offset={50}
+                  duration={500}
+                >
+                  <a className="cursor-pointer hover:bg-[#004445] text-[#004445] no-underline hover:text-[#FFD800] block px-3 py-2 rounded-md text-base font-medium">
+                    Contact Us
+                  </a>
+                </Link>
 
-                  <Link
-                    href={"/donate"}
-                    activeClass="contact"
-                    to="contact"
-                    smooth={true}
-                    offset={50}
-                    duration={500}
-                   
-                  >
-                    <a  className="cursor-pointer bg-[#FFD800] text-[#004445] no-underline hover:text-[#004445] block px-3 py-2 rounded-md text-base font-medium">Donate Now</a>
-                  </Link>
+                <Link
+                  href={"/donate"}
+                  activeClass="contact"
+                  to="contact"
+                  smooth={true}
+                  offset={50}
+                  duration={500}
+                >
+                  <a className="cursor-pointer bg-[#FFD800] text-[#004445] no-underline hover:text-[#004445] block px-3 py-2 rounded-md text-base font-medium">
+                    Donate Now
+                  </a>
+                </Link>
               </div>
             </div>
           )}
