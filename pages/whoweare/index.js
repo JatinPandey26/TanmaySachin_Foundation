@@ -11,7 +11,7 @@ export default function Home() {
     <div className="flex flex-col">
       <Navbar />
       <RegBanner />
-      <h1 className="m-auto mt-[3rem]  underline underline-offset-[1rem] mb-[5rem] text-[#152453] font-bold text-[2rem]">
+      <h1 className={styles.heading}>
         About Us
       </h1>
       <Mission />

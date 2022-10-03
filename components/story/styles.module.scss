@@ -1,4 +1,4 @@
-.wrapper{
+.wrapper {
     display: flex;
     width: 100%;
     height: 60vh;
@@ -6,40 +6,44 @@
     padding-top: 5rem;
     padding-bottom: 5rem;
     background-size: cover;
-    
+
     background-color: rgba(0, 0, 0, 0.797);
-    background-blend-mode:darken;
+    background-blend-mode: darken;
     color: white;
 
     @media screen and (max-width:500px) {
-        flex-direction:  column;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        
+
     }
 
-    .heading{
+    .heading {
         width: 30vw;
         text-align: center;
-        padding-left: 2rem ;
+        padding-left: 2rem;
         padding-right: 2rem;
         font-size: 1.2rem;
+
         @media screen and (max-width:500px) {
             width: 100vw;
         }
     }
-    .content{
+
+    .content {
         width: 70vw;
-        padding-left: 2rem ;
+        padding-left: 2rem;
         padding-right: 2rem;
+
         @media screen and (max-width:500px) {
             margin-top: 2rem;
             width: 100vw;
         }
-        >div{
-            >p{
-                >span{
-                    color:yellow;
+
+        >div {
+            >p {
+                >span {
+                    color: #F01152;
                     font-style: italic;
                     font-weight: bold;
                 }

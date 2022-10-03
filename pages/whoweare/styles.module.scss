@@ -1,10 +1,24 @@
-.donateBtn{
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@900&display=swap');
+
+.heading {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 3rem;
+    margin: auto;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    text-shadow: 2px 2px 2px rgb(146, 142, 142);
+    -webkit-text-stroke: 0.5px white ;
+    font-weight: 800;
+    color: #162755;
+}
+
+.donateBtn {
     margin-top: 3rem;
-    background-color: #1C6758;
+    background-color: #162755;
     color: white;
     font-weight: lighter;
     font-size: 0.9rem;
-    padding: 0.4rem 1.3rem;
+    padding: 0.6rem 1.8rem;
     margin: auto;
     border-radius: 10px;
     margin-bottom: 3rem;

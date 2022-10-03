@@ -9,7 +9,7 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div>
-      <nav className=" shadow-sm bg-[#C0D6EC]  w-full z-10">
+      <nav className=" shadow-sm bg-[#C0D6EC]  w-full z-10 fixed">
         <div className="w-full">
           <div className="flex items-center h-20 w-full">
             <div className="flex items-center  mx-7  justify-between w-full">
@@ -35,7 +35,7 @@ function Navbar() {
                     offset={50}
                     duration={500}
                   >
-                    <a className="cursor-pointer text-[#152453] text-[#152453]  font-semibold no-underline text-[#152453] px-3 py-2 rounded-md text-sm font-semibold">
+                    <a className="cursor-pointer text-[#152453] text-[#152453]  font-semibold no-underline text-[#152453] px-3 py-2 rounded-lg text-sm font-semibold ">
                       Home
                     </a>
                   </Link>
@@ -47,7 +47,7 @@ function Navbar() {
                     offset={50}
                     duration={500}
                   >
-                    <a className="cursor-pointer text-[#152453] text-[#152453]  font-semibold no-underline text-[#152453] px-3 py-2 rounded-md text-sm font-semibold">
+                    <a className="cursor-pointer text-[#152453] text-[#152453]  font-semibold no-underline text-[#152453] px-3 py-2 rounded-md text-sm font-semibold ">
                       Who we are
                     </a>
                   </Link>
@@ -59,7 +59,7 @@ function Navbar() {
                     offset={50}
                     duration={500}
                   >
-                    <a className="cursor-pointer text-[#152453] text-[#152453]  font-semibold no-underline text-[#152453] px-3 py-2 rounded-md text-sm font-semibold">
+                    <a className="cursor-pointer text-[#152453] text-[#152453]  font-semibold no-underline text-[#152453] px-3 py-2 rounded-md text-sm font-semibold ">
                       What we do
                     </a>
                   </Link>
@@ -72,7 +72,7 @@ function Navbar() {
                     offset={50}
                     duration={500}
                   >
-                    <a className="cursor-pointer  text-[#152453] font-light text-[#152453] px-3 py-2 no-underline rounded-md text-sm font-semibold">
+                    <a className="cursor-pointer text-[#152453] text-[#152453]  font-semibold no-underline text-[#152453] px-3 py-2 rounded-md text-sm font-semibold ">
                       Gallery
                     </a>
                   </Link>
@@ -85,7 +85,7 @@ function Navbar() {
                     offset={50}
                     duration={500}
                   >
-                    <a className="cursor-pointer  text-[#152453]  font-semibold no-underline text-[#152453] px-3 py-2 rounded-md text-sm font-semibold">
+                    <a className="cursor-pointer text-[#152453] text-[#152453]  font-semibold no-underline text-[#152453] px-3 py-2 rounded-md text-sm font-semibold  ">
                       Contact Us
                     </a>
                   </Link>

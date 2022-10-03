@@ -1,0 +1,16 @@
+.wrapper {
+    width: 90%;
+    margin: auto;
+    min-height: 70vh;
+   
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    >img{
+        height: 25rem;
+        width: 22rem;
+        margin: 0.5rem;
+    }
+}
