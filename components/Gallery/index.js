@@ -23,8 +23,8 @@ const Gallery = () => {
 
     return (<div className={styles.wrapper}>
         {
-            images.map(image => {
-                return <img src = {image}></img>
+            images.map((image,index) => {
+                return <img key={index} src = {image}></img>
             })
         }
     </div>);
