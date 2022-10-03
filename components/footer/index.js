@@ -6,49 +6,37 @@ import Image from "next/image";
 // import LanguageIcon from "@mui/icons-material/Language";
 const Footer = () => {
   return (
-    <div className={styles.footerWrapper}>
-      <Image
-        src={"/TanmaySachinFoundation.png"}
-        className="rounded-lg "
-        layout="intrinsic"
-        width="80%"
-        height="70%"
-      />
-      <h3 className="mt-4 text-2xl font-medium text-center">TanmaySachin Foundation</h3>
-      <div className="flex flex-col justify-center items-center my-2 mx-2 ">
-        <div className="flex flex-col mx-auto items-center ">
-          <span className="text-center">
-            C/O Preeti Sumant Karanje, A-Juve, P-Dalepal-Rajapur
-          </span>
-          <span>District- Ratnagiri, Juve, Ratnagiri</span>
-          <span>Maharashtra - 416702, India</span>
+    <div className={styles.wrapper}>
+      <div className={styles.upperwrapper}>
+        <div className={styles.introWrapper}>
+          <Image
+            src={"/logotsf.png"}
+            width="60%"
+            height="60%"
+            className="object-contain"
+          ></Image>
+          <p>
+            Tanmay <br /> Sachin <br /> Foundation
+          </p>
         </div>
-        <div className="flex flex-col items-center my-2">
-          <span>+91-8108070899</span>
-          <a
-            href="mailto:sachin@tanmaysachinfoundation.com"
-            className="mx-2 cursor-pointer"
-          >
-            sachin@tanmaysachinfoundation.com
-          </a>
+        <div className={styles.addressWrapper}>
+          <h4>Mailing Address</h4>
+          <p>
+            C/O Preeti Sumant Karanje, A-Juve, P-Dalepal-Rajapur District-
+            Ratnagiri, Juve, Ratnagiri Maharashtra - 416702, India
+          </p>
+        </div>
+        <div className={styles.connectWrapper}>
+          <h4>Connect WIth us</h4>
         </div>
       </div>
-      <p className="text-white mx-1 mt-5 text-center font-thin text-sm italic">
-        @2022 TanmaySachinFoundation.All rights reserved{" "}
+      <hr className="w-[90%] m-auto h-[0.05rem] bg-[#152453a9] mb-[1rem]"/>
+      <div className="text-center">
+      <p className="text-[0.8rem] text-[#152453]">© 2022 TanmaySachinFoundation. All rights reserved.</p>
+      <p className="text-[0.8rem] text-[#152453]">
+      Website Designed and Coded By: Aditi Gemini & Jatin Pandey
       </p>
-      <span className="text-white mx-1 mt-1  text-center font-thin text-sm italic">
-        Website Designed and Coded by:{" "}
-        <a
-          className="underline"
-          href="https://www.linkedin.com/in/aditi-gemini-374109227/"
-        >
-          Aditi Gemini
-        </a>{" "}
-        &{" "}
-        <a className="underline" href="https://www.linkedin.com/in/jatin-pandey-18194b1a0/">
-          Jatin Pandey
-        </a>
-      </span>
+      </div>
     </div>
   );
 };

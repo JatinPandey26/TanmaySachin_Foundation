@@ -1,22 +1,26 @@
-.container{
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@900&display=swap');
+    .container{
     
     margin:1rem auto;
     width: 50%;
-    color: #004445;
+    
     text-align: center;
     >h1{
-        font-size: 1.5rem;
-        font-weight: 600;
+        color: #162755;
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 3rem;
+        text-shadow: 2px 2px 2px rgb(146, 142, 142);
+        font-weight:800;
     }
     >p{
         margin-top: 1rem;
     }
     >button{
-        background-color: #004445;
-        color: #FFD800;
+        background-color: #162755;
+        color: white;
         font-weight: lighter;
         font-size: 0.9rem;
-        padding: 0.4rem 1.3rem;
+        padding: 0.6rem 1.8rem;
         margin: 2rem;
         border-radius: 10px;
     }

@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@900&display=swap');
+
+.wrapper{
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px 2px rgb(146, 142, 142);
+    >h2{
+        margin: auto;
+        margin-top: 1rem;
+        width: 50%;
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 3rem;
+        font-weight: 600;
+        color:white;
+
+        >span{
+            color : #152453;
+            -webkit-text-stroke: 1px white;
+        }
+        @media screen and (max-width : 800px) {
+            width:70%
+        }
+        @media screen and (max-width : 550px) {
+            font-size: 2.4rem;
+        }
+    }
+}

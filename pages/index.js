@@ -1,5 +1,6 @@
 //import Head from 'next/head'
 import Footer from '../components/footer'
+import { HomePic } from '../components/homepageBg'
 import Navbar from '../components/navbar'
 import  RegBanner  from '../components/reginfobanner'
 import SendDonationBand from '../components/sendDonations'
@@ -13,7 +14,9 @@ export default function Home() {
     <div className='flex flex-col'>
     <Navbar/>
     <RegBanner/>
+    <HomePic/>
     <WhoWeAreBand/>
+    
     <SendDonationBand/>
     <Footer/>
     </div>

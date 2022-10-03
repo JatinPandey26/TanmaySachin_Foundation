@@ -9,18 +9,21 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div>
-      <nav className=" shadow-sm bg-[#004445]  w-full z-10">
+      <nav className=" shadow-sm bg-[#C0D6EC]  w-full z-10">
         <div className="w-full">
           <div className="flex items-center h-20 w-full">
-            <div className="flex items-center  mx-10  justify-between w-full">
+            <div className="flex items-center  mx-7  justify-between w-full">
               <div className="flex justify-start items-center flex-shrink-0 ">
                 <Image
-                  src={"/TanmaySachinFoundation.png"}
+                  src={"/logotsf.png"}
                   className="rounded-lg"
                   layout="intrinsic"
                   width="80%"
                   height="70%"
                 />
+                <p className="self-start w-10 font-extrabold ml-2">
+                  Tanmay Sachin Foundation
+                </p>
               </div>
               <div className="hidden md:block">
                 <div className="ml-10 flex items-baseline space-x-2">
@@ -32,7 +35,7 @@ function Navbar() {
                     offset={50}
                     duration={500}
                   >
-                    <a className="cursor-pointer text-[#FFD800] font-thin px-3 no-underline py-2 text-md hover:text-white">
+                    <a className="cursor-pointer text-[#152453] text-[#152453]  font-semibold no-underline text-[#152453] px-3 py-2 rounded-md text-sm font-semibold">
                       Home
                     </a>
                   </Link>
@@ -44,7 +47,7 @@ function Navbar() {
                     offset={50}
                     duration={500}
                   >
-                    <a className="cursor-pointer text-[#FFD800] font-thin px-3 no-underline py-2 text-md hover:text-white">
+                    <a className="cursor-pointer text-[#152453] text-[#152453]  font-semibold no-underline text-[#152453] px-3 py-2 rounded-md text-sm font-semibold">
                       Who we are
                     </a>
                   </Link>
@@ -56,7 +59,7 @@ function Navbar() {
                     offset={50}
                     duration={500}
                   >
-                    <a className="cursor-pointer text-[#FFD800] text-[#FFD800]  font-thin no-underline hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                    <a className="cursor-pointer text-[#152453] text-[#152453]  font-semibold no-underline text-[#152453] px-3 py-2 rounded-md text-sm font-semibold">
                       What we do
                     </a>
                   </Link>
@@ -69,7 +72,7 @@ function Navbar() {
                     offset={50}
                     duration={500}
                   >
-                    <a className="cursor-pointer  text-[#FFD800] font-light hover:text-white px-3 py-2 no-underline rounded-md text-sm font-medium">
+                    <a className="cursor-pointer  text-[#152453] font-light text-[#152453] px-3 py-2 no-underline rounded-md text-sm font-semibold">
                       Gallery
                     </a>
                   </Link>
@@ -82,7 +85,7 @@ function Navbar() {
                     offset={50}
                     duration={500}
                   >
-                    <a className="cursor-pointer text-[#FFD800] text-[#FFD800]  font-thin no-underline hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                    <a className="cursor-pointer  text-[#152453]  font-semibold no-underline text-[#152453] px-3 py-2 rounded-md text-sm font-semibold">
                       Contact Us
                     </a>
                   </Link>
@@ -95,9 +98,16 @@ function Navbar() {
                     offset={50}
                     duration={500}
                   >
-                    <a className="wrapList cursor-pointer no-underline justify-self-end  bg-[#FFD800]  text-[#004445] px-3 py-2 rounded-[5rem] text-sm font-medium  hover:text-[#004445]">
-                      Donate Now
-                    </a>
+                    <span className="flex h-[2.4rem] items-center wrapList cursor-pointer no-underline justify-self-end bg-[#F01152] self-center  text-white hover:text-[#152453] px-3 py-2 rounded-[5rem] text-sm font-semibold  ">
+                      <Image
+                        src={"/donationIcon.png"}
+                        className="rounded-lg object-contain "
+                        layout="intrinsic"
+                        width="30%"
+                        height="30%"
+                      />
+                      <p>Donate Now</p>
+                    </span>
                   </Link>
                 </div>
               </div>
@@ -106,7 +116,7 @@ function Navbar() {
               <button
                 onClick={() => setIsOpen(!isOpen)}
                 type="button"
-                className="bg-[#FFD800] inline-flex items-center justify-center p-2 rounded-md text-black  hover:[#FFD800] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-blue-800 focus:ring-white"
+                className="bg-[#F01152] inline-flex items-center justify-center p-2 rounded-md text-[#152453]  hover:[#FFD800] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-blue-800 focus:ring-white"
                 aria-controls="mobile-menu"
                 aria-expanded="false"
               >
@@ -172,7 +182,7 @@ function Navbar() {
                   offset={50}
                   duration={500}
                 >
-                  <a className="cursor-pointer hover:bg-[#004445] text-[#004445] no-underline hover:text-[#FFD800] block px-3 py-2 rounded-md text-base font-medium">
+                  <a className="cursor-pointer hover:bg-[#F8DBE4] text-[#152453] no-underline hover:text-[#152453] block px-3 py-2 rounded-md text-base font-semibold">
                     Home
                   </a>
                 </Link>
@@ -184,7 +194,7 @@ function Navbar() {
                   offset={50}
                   duration={500}
                 >
-                  <a className="cursor-pointer hover:bg-[#004445] text-[#004445] no-underline hover:text-[#FFD800] block px-3 py-2 rounded-md text-base font-medium">
+                  <a className="cursor-pointer hover:bg-[#F8DBE4] text-[#152453] no-underline hover:text-[#152453] block px-3 py-2 rounded-md text-base font-semibold">
                     Who we are
                   </a>
                 </Link>
@@ -196,7 +206,7 @@ function Navbar() {
                   offset={50}
                   duration={500}
                 >
-                  <a className="cursor-pointer hover:bg-[#004445] text-[#004445] no-underline hover:text-[#FFD800] block px-3 py-2 rounded-md text-base font-medium">
+                  <a className="cursor-pointer hover:bg-[#F8DBE4] text-[#152453] no-underline hover:text-[#152453] block px-3 py-2 rounded-md text-base font-semibold">
                     What we do
                   </a>
                 </Link>
@@ -209,7 +219,7 @@ function Navbar() {
                   offset={50}
                   duration={500}
                 >
-                  <a className="cursor-pointer hover:bg-[#004445] text-[#004445] no-underline hover:text-[#FFD800] block px-3 py-2 rounded-md text-base font-medium">
+                  <a className="cursor-pointer hover:bg-[#F8DBE4] text-[#152453] no-underline hover:text-[#152453] block px-3 py-2 rounded-md text-base font-semibold">
                     Gallery
                   </a>
                 </Link>
@@ -222,7 +232,7 @@ function Navbar() {
                   offset={50}
                   duration={500}
                 >
-                  <a className="cursor-pointer hover:bg-[#004445] text-[#004445] no-underline hover:text-[#FFD800] block px-3 py-2 rounded-md text-base font-medium">
+                  <a className="cursor-pointer hover:bg-[#F8DBE4] text-[#152453] no-underline hover:text-[#152453] block px-3 py-2 rounded-md text-base font-semibold">
                     Contact Us
                   </a>
                 </Link>
@@ -235,7 +245,7 @@ function Navbar() {
                   offset={50}
                   duration={500}
                 >
-                  <a className="cursor-pointer bg-[#FFD800] text-[#004445] no-underline hover:text-[#004445] block px-3 py-2 rounded-md text-base font-medium">
+                  <a className="cursor-pointer bg-[#F01152] text-white no-underline hover:text-[#152453] block px-3 py-2 rounded-md text-base font-semibold">
                     Donate Now
                   </a>
                 </Link>
