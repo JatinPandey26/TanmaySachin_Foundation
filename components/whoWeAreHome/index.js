@@ -1,17 +1,37 @@
-import React from 'react'
-import styles from './styles.module.scss'
+import React from "react";
+import styles from "./styles.module.scss";
 const WhoWeAreBand = () => {
   return (
     <div className={styles.whoweareWrap}>
-    <div className={styles.container}>
-        <h1 >Who We Are</h1>
-        <p> TanmaySachin Foundation is a Not-for-Profit Organization working for underprivileged people and animals by providing them meals, medical treatment and proper clothes. It is  <b><i>incorporated under the Companies Act, 2013</i></b>.
-The organization started it’s working in 2020 during thr first lockdown with the vision <b><i>to empower poor people by improving their lives and  livelihood</i></b>. </p>
-    <button className='font-extralight'>Know More</button>
-    </div>
-    <div className=' bg-black'></div>
-    </div>
-  )
-}
+      <div className={styles.container}>
+        <h1>Who We Are</h1>
+        <p>
+          {" "}
+          TanmaySachin Foundation is a Not-for-Profit Organization working for
+          underprivileged people and animals by providing them meals, medical
+          treatment and proper clothes. It is{" "}
+          <b>
+            <i>incorporated under the Companies Act, 2013</i>
+          </b>
+          . The organization started it’s working in 2020 during thr first
+          lockdown with the vision{" "}
+          <b>
+            <i>
+              to empower poor people by improving their lives and livelihood
+            </i>
+          </b>
+          .{" "}
+        </p>
+        <button className="font-extralight">Know More</button>
+      </div>
+      <img src="/6660.jpg" className={styles.img1}></img>
+      <div className={styles.charityPic}>
+        <img src="/6660.jpg" className="object-cover h-full"></img>
+      </div>
 
-export default WhoWeAreBand
+      
+    </div>
+  );
+};
+
+export default WhoWeAreBand;
