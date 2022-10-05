@@ -3,6 +3,7 @@
 .wrapper {
   height: 70vh;
   margin-top: 2rem;
+  z-index: 1;
   background-size: cover;
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
     url("/homeMainbg.jpg");
