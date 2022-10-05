@@ -1,5 +1,5 @@
 .wrapper {
-    width: 90%;
+    width: 80%;
     margin: auto;
     min-height: 70vh;
    
@@ -9,8 +9,12 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     >img{
-        height: 25rem;
-        width: 22rem;
+        height: 20rem;
+        width: 31%;
         margin: 0.5rem;
+        transition: 0.2s ease-in-out;
+        &:hover{
+            scale:1.05;
+        }
     }
 }

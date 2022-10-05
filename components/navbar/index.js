@@ -18,15 +18,17 @@ function Navbar() {
                   src={"/logotsf.png"}
                   className="rounded-lg"
                   layout="intrinsic"
-                  width="80%"
+                  width="70%"
                   height="70%"
                 />
+                <div className={styles.title}>
                 <p className="self-start w-10 font-extrabold ml-2">
                   Tanmay Sachin Foundation
                 </p>
+                </div>
               </div>
               <div className="hidden md:block">
-                <div className="ml-10 flex items-baseline space-x-2">
+                <div className="ml-5 flex items-baseline space-x-2">
                   <Link
                     href="/"
                     activeClass="Home"
@@ -35,7 +37,7 @@ function Navbar() {
                     offset={50}
                     duration={500}
                   >
-                    <a className="cursor-pointer text-[#152453] text-[#152453]  font-semibold no-underline text-[#152453] px-3 py-2 rounded-lg text-sm font-semibold ">
+                    <a className="cursor-pointer  font-semibold no-underline text-[#152453] px-3 py-2 rounded-lg   ">
                       Home
                     </a>
                   </Link>
