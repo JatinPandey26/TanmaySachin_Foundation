@@ -108,7 +108,7 @@ function Navbar() {
                         width="30%"
                         height="30%"
                       />
-                      <p>Donate Now</p>
+                      <p className="ml-2">Donate Now</p>
                     </span>
                   </Link>
                 </div>
