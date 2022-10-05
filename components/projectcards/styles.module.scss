@@ -1,0 +1,39 @@
+.card {
+  height: 12rem;
+  width: 22rem;
+  display: flex;
+  color: white;
+  margin-left: 2rem;
+
+  > .projectName {
+    width: 50%;
+    height: 100%;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: #004445;
+    >h3{
+      text-align: center;
+      padding:1rem;
+      font-size: 16px;
+    }
+    > p{
+      word-break: break-all;
+      font-size: 12px;
+      text-align: center;
+      margin: 0.5rem;
+      font-weight: 100;
+    }
+  }
+  > .pic {
+    width: 50%;
+    height: 100%;
+
+    > img {
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+}
