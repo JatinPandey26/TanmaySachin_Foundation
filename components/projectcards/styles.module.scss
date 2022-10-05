@@ -1,39 +1,28 @@
 .card {
-  height: 12rem;
-  width: 22rem;
-  display: flex;
+  padding: 0.5rem;
+  height: 15rem;
+  margin: 1rem;
+  width: 25rem;
   color: white;
   margin-left: 2rem;
+  background-color: #152453;
+  background-image: linear-gradient(  to right,
+  rgb(23, 23, 110),
+  rgba(50, 50, 100, 0.6)),
+    url("/trypic.jpg");
+    border-radius: 1rem;
 
-  > .projectName {
-    width: 50%;
-    height: 100%;
-    border-bottom-left-radius: 10px;
-    border-top-left-radius: 10px;
-    background-color: #004445;
-    >h3{
-      text-align: center;
-      padding:1rem;
-      font-size: 16px;
-    }
+  >h4{
+    font-size: 1.6rem;
+  }
     > p{
+      margin-top: 0.5rem;
+      width: 40%;
       word-break: break-all;
-      font-size: 12px;
-      text-align: center;
-      margin: 0.5rem;
+      font-size: 1rem;
       font-weight: 100;
     }
   }
-  > .pic {
-    width: 50%;
-    height: 100%;
+  
+  
 
-    > img {
-      border-top-right-radius: 10px;
-      border-bottom-right-radius: 10px;
-      height: 100%;
-      width: 100%;
-      object-fit: cover;
-    }
-  }
-}

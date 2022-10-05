@@ -4,10 +4,10 @@ import styles from "./styles.module.scss";
 const SendDonationBand = () => {
   return (
     <div className={styles.container}>
-      <hr
-        className="mb-[2rem] w-[70%] m-auto h-[0.08rem] bg-[#F01152] "
-      />
       <div>
+      <div></div>
+      <div>
+       
         <h1>Send Us Your Donation</h1>
         <p>
           Every donation will lead to a great future & Inspire many more
@@ -19,6 +19,7 @@ const SendDonationBand = () => {
           </span>
         </p>
       </div>
+        </div>
 
       <button>Donate Now</button>
     </div>

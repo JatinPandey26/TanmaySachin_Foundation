@@ -1,19 +1,12 @@
-import React from 'react'
-import styles from "./styles.module.scss"
+import React from "react";
+import styles from "./styles.module.scss";
 
-export const ProjectCard = () => {
+export const ProjectCard = ({title = 'title' , desc = 'lafagjgahah'}) => {
   return (
-    <div className={styles.classContainer}>
-      <div className={styles.card}>
-        <div className={styles.projectName}>
-          <h3>Project</h3>
-          <hr className='text-white w-[70%] m-auto mb-2'></hr>
-          <p>hsjaaaaaaaaaaaaaaaaaaaaaaaajhjkk</p>
-        </div>
-        <div className={styles.pic}>
-          <img src="/trypic.jpg"></img>
-        </div>
-      </div>
+    <div className={styles.card}>
+      <br />
+      <h4>{title}</h4>
+      <p>{desc}</p>
     </div>
-  )
-}
+  );
+};

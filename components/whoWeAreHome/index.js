@@ -28,9 +28,8 @@ const WhoWeAreBand = () => {
       <div className={styles.charityPic}>
         <img src="/6660.jpg" className="object-cover h-full"></img>
       </div>
+</div>
 
-      
-    </div>
   );
 };
 
