@@ -2,20 +2,26 @@
 
     margin:1rem 0;
     color: #152453 ;
+    background: #C0D6EC;
     text-align: center;
-    
-    >div{
-        background-color: #ff0066;
-        display: flex;
-        >div{
-            height: 100%;
-            width: 30vw;
-            // object-fit: contain;
-        }
-        >div{
+    display: flex;
+    align-items: center;
+   >.leftContainer{
+    width: 20vw;
+    background: #C0D6EC;
+
+    >img{
+        height: 25vh;
+        width: 100%;
+        object-fit: contain;
+        
+    }
+   }
+        
+        >.rightContainer{
             padding: 2rem 10%;
             background-color: #C0D6EC;
-            width: 70vw;
+            width: 80vw;
         
             >h1{
                
@@ -30,7 +36,7 @@
             @media screen and (max-width:800px){
                 padding: 1rem 15%;
             }
-        }
+        
     }
 
     >button{
