@@ -3,22 +3,33 @@
     margin:1rem 0;
     color: #152453 ;
     text-align: center;
-
+    
     >div{
-        padding: 2rem 25%;
-        background-color: #C0D6EC;
-        >h1{
-           
-            font-size: 1.7rem;
-            font-weight: bold;
+        background-color: #ff0066;
+        display: flex;
+        >div{
+            height: 100%;
+            width: 30vw;
+            // object-fit: contain;
         }
-        >p{
-            margin-top: 1rem;
-           
-        }
-
-        @media screen and (max-width:800px){
-            padding: 1rem 15%;
+        >div{
+            padding: 2rem 10%;
+            background-color: #C0D6EC;
+            width: 70vw;
+        
+            >h1{
+               
+                font-size: 1.7rem;
+                font-weight: bold;
+            }
+            >p{
+                margin-top: 1rem;
+               
+            }
+    
+            @media screen and (max-width:800px){
+                padding: 1rem 15%;
+            }
         }
     }
 

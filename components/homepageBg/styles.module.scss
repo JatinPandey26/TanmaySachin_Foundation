@@ -5,7 +5,9 @@
   margin-top: 2rem;
   z-index: 1;
   background-size: cover;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+  background-image: linear-gradient(  to top,
+  rgba(5, 1, 1, 0.9),
+  rgba(27, 3, 145, 0.112)),
     url("/homeMainbg.jpg");
   background-position: center;
   display: flex;
@@ -26,11 +28,11 @@
       
       font-family: "Noto Sans", sans-serif;
       font-size: 4rem;
-      font-weight: 500;
+      font-weight: 200;
       color: rgba(255, 255, 255, 0.777);
 
       > span {
-        color: #152453;
+        color:  rgba(255, 255, 255, 0.777);
         -webkit-text-stroke: 1px white;
       }
       @media screen and (max-width: 800px) {
@@ -45,8 +47,8 @@
       font-size: 1.5rem;
       font-weight: 200;
       text-align: center;
-      //background-color:#152453;
-      color: rgba(255, 255, 255, 0.947);
+      background-color:rgba(255, 255, 255, 0.766);
+      color: #152453;
     }
     > button {
       background-color: #162755;
