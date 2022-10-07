@@ -47,14 +47,15 @@
         @media screen and (max-width : 950px) {
             background-size: cover;
             background-position: center;
-            background-image: url('/blob3.png');
-
+            background-image: none;
+            flex-direction: column-reverse;
+            align-items: center;
         }
 
         @media screen and (max-width : 650px) {
             background-size: cover;
             background-position: center;
-            background-image: url('/blob2.png');
+            background-image: none;
 
         }
 
@@ -88,7 +89,7 @@
             @media screen and (max-width : 680px) {
                 width: 100%;
                 text-align: center;
-
+                padding: 1rem;
             }
 
             >h4 {
@@ -99,6 +100,12 @@
             >p {
                 font-size: 1.2rem;
                 margin-top: 2rem;
+            }
+
+            @media screen and (max-width : 950px) {
+                width: 90%;
+                // height: 10rem;
+                background-color: #e5e7eb;
             }
         }
 
@@ -113,21 +120,23 @@
             right: -35%;
             z-index: 10;
 
-            @media screen and (max-width : 680px) {
-                display: none;
-
-            }
-
             @media screen and (max-width : 950px) {
-
-                display: none;
-
+               
+            height: 30%;
+            width: 100%;
+            background: #f0f3f7;
+            position: absolute;
+            top: -30%;
+            clip-path: polygon(0% 100%, 50% 50%, 100% 100%);
+            left: 0;
+            background-color: #d8e7fa;
+            z-index: 10;
             }
         }
 
         >.rightBox {
             min-height: 100%;
-            height: 30rem;
+            height: 25rem;
             width: 35%;
             z-index: 100;
 
@@ -136,9 +145,14 @@
 
             }
 
-            @media screen and (max-width : 680px) {
-                display: none;
+            // @media screen and (max-width : 680px) {
+            //     display: none;
 
+            // }
+
+            @media screen and (max-width : 960px) {
+                width: 70%;
+                height: 10rem;
             }
 
             >img {
@@ -161,16 +175,13 @@
         @media screen and (max-width : 950px) {
             background-size: cover;
             background-position: center;
-            background-image: url('/blob3.png');
-
+            // background-image: url('/blob3.png');
+            flex-direction: column;
+            align-items: center;
+            
         }
 
-        @media screen and (max-width : 650px) {
-            background-size: cover;
-            background-position: center;
-            background-image: url('/blob2.png');
-
-        }
+        
 
         @media screen and (max-width : 750px) {
             padding: 1rem;
@@ -185,13 +196,14 @@
             background-size: cover;
             background-position: center;
             padding: 2rem;
+            
             z-index: 1;
             position: relative;
 
             @media screen and (max-width : 950px) {
 
                 background-image: none;
-
+                background-color: #d8e7fa;
             }
 
             @media screen and (max-width : 750px) {
@@ -202,7 +214,7 @@
             @media screen and (max-width : 680px) {
                 width: 100%;
                 text-align: center;
-
+                padding: 1rem;
             }
 
             >h4 {
@@ -214,6 +226,12 @@
                 font-size: 1.2rem;
                 margin-top: 2rem;
             }
+
+            @media screen and (max-width : 950px) {
+                width: 90%;
+                // height: 10rem;
+            }
+
         }
 
         >.leftBox::after {
@@ -228,18 +246,23 @@
             z-index: 10;
 
             @media screen and (max-width : 950px) {
-                display: none;
-
+               
+                height: 30%;
+            width: 100%;
+            background: #f0f3f7;
+            position: absolute;
+            top: -30%;
+            clip-path: polygon(0% 100%, 50% 50%, 100% 100%);
+            left: 0;
+            z-index: 10;
             }
 
-            @media screen and (max-width : 680px) {
-                display: none;
-
-            }
+            
+           
         }
 
         >.rightBox {
-            height: 30rem;
+            height: 25rem;
             width: 35%;
             z-index: 100;
 
@@ -248,13 +271,14 @@
                 height: 20rem;
             }
 
+            @media screen and (max-width : 960px) {
+                width: 70%;
+                height: 10rem;
+            }
+
            
 
 
-            @media screen and (max-width : 680px) {
-                display: none;
-
-            }
 
             >img {
                 height: 100%;

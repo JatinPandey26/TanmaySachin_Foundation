@@ -6,8 +6,9 @@ import Link from "next/link";
 export const CardSection = () => {
   const info = [
     { title: "Title1", desc: "Description1" },
-    { title: "Title2", desc: "Description2" },
+    { title: "Title2", desc: "Description2 " },
     { title: "Title3", desc: "Description3" },
+    { title: "Title4", desc: "Description4" },
   ];
 
   return (

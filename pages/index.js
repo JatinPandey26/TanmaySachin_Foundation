@@ -18,10 +18,11 @@ export default function Home() {
     <RegBanner/>
     <HomePic/>
     <WhoWeAreBand/>
+    
+    <CardSection/>
     <hr
         className="mt-[2rem] w-[90%] m-auto h-[0.2rem] bg-[#f0115052] "
       />
-    <CardSection/>
     <SendDonationBand/>
     <Footer/>
     </div>
