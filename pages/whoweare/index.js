@@ -5,6 +5,7 @@ import RegBanner from "../../components/reginfobanner";
 import Story from "../../components/story";
 import Whyweserve from "../../components/whyweserve";
 import Footer from "../../components/footer";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -17,7 +18,7 @@ export default function Home() {
       <Mission />
       <Story />
       <Whyweserve />
-      <button className={styles.donateBtn}>Donate Now</button>
+      <button className={styles.donateBtn}><Link href={'/donate'}>Donate Now</Link></button>
       <Footer />
     </div>
   );

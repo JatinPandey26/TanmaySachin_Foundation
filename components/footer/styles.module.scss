@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@900&display=swap');
 
 .wrapper {
-  background-color: #C0D6EC;
+  margin-top: 5rem;
+  // background-color: #C0D6EC;
+  background-image: url('/footerbg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   padding: 1rem;
   padding-top: 3rem;
 

@@ -30,12 +30,14 @@ const Footer = () => {
           <h4>Connect WIth us</h4>
         </div>
       </div>
-      <hr className="w-[90%] m-auto h-[0.05rem] bg-[#152453a9] mb-[1rem]"/>
+      <hr className="w-[90%] m-auto h-[0.05rem] bg-[#152453a9] mb-[1rem]" />
       <div className="text-center">
-      <p className="text-[0.8rem] text-[#152453]">© 2022 TanmaySachinFoundation. All rights reserved.</p>
-      <p className="text-[0.8rem] text-[#152453]">
-      Website Designed and Coded By: Aditi Gemini & Jatin Pandey
-      </p>
+        <p className="text-[0.8rem] text-[#152453]">
+          © 2022 TanmaySachinFoundation. All rights reserved.
+        </p>
+        <p className="text-[0.8rem] text-[#152453]">
+          Website Designed and Coded By: Aditi Gemini & Jatin Pandey
+        </p>
       </div>
     </div>
   );
