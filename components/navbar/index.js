@@ -22,9 +22,9 @@ function Navbar() {
                   height="70%"
                 />
                 <div className={styles.title}>
-                <p className="self-start w-10 font-extrabold ml-2 text-[#152453]">
-                  Tanmay Sachin Foundation
-                </p>
+                  <p className="self-start w-10 font-extrabold ml-2 text-[#152453]">
+                    Tanmay Sachin Foundation
+                  </p>
                 </div>
               </div>
               <div className="hidden md:block">
