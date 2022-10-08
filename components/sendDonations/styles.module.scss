@@ -1,54 +1,148 @@
-.container{
+.container {
+  margin: 1rem 0;
+  color: #152453;
+  margin: auto;
+  background: #c0d6ecbc;
+  width: 60%;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    margin:1rem 0;
-    color: #152453 ;
-    background: #C0D6EC;
+  @media screen and (max-width: 1400px) {
+    width: 70%;
+  }
+
+  @media screen and (max-width: 1000px) {
+    width: 90%;
+  }
+
+  @media screen and (max-width: 800px) {
+    flex-direction: column;
+  }
+
+  > .leftContainer {
+    width: 40%;
     text-align: center;
-    margin-top: 5rem;
+    > h1 {
+      font-size: 1.7rem;
+      font-weight: bold;
+    }
+    > button {
+      background-color: #162755;
+      color: white;
+      font-size: 0.9rem;
+      padding: 0.6rem 1.8rem;
+      margin: 2rem;
+      // width: 40%;
+      border-radius: 10px;
+      // @media screen and (max-width:700px) {
+      //   width: 30%;
+      // }
+      // @media screen and (max-width:400px) {
+      //   width: 52%;
+      // }
+    }
+
+    @media screen and (max-width: 800px) {
+      margin-top: 2rem;
+      width: 100%;
+    }
+  }
+
+  > .rightContainer {
+    padding: 2rem 10%;
+    // background-color: #C0D6EC;
+    @media screen and (max-width: 1400px) {
+      padding: 1rem;
+    }
+    margin: 2rem;
+    border-left: 1px solid #162755;
+    min-height: 40vh;
+    width: 60%;
     display: flex;
-    align-items: center;
-   >.leftContainer{
-    width: 20vw;
-    background: #C0D6EC;
-
-    >img{
-        height: 25vh;
-        width: 100%;
-        object-fit: contain;
-        
+    flex-direction: column;
+    justify-content: space-between;
+    > div {
+      box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+      @media screen and (max-width: 600px) {
+        margin-top: 1rem;
+      }
     }
-   }
-        
-        >.rightContainer{
-            padding: 2rem 10%;
-            background-color: #C0D6EC;
-            width: 80vw;
-        
-            >h1{
-               
-                font-size: 1.7rem;
-                font-weight: bold;
-            }
-            >p{
-                margin-top: 1rem;
-               
-            }
-    
-            @media screen and (max-width:800px){
-                padding: 1rem 15%;
-            }
-        
+    > p {
+      margin-top: 1rem;
     }
 
-    >button{
-        background-color: #162755;
-        color: white;
-        font-weight: lighter;
-        font-size: 0.9rem;
-        padding: 0.6rem 1.8rem;
-        margin: 2rem;
-        border-radius: 10px;
+    @media screen and (max-width: 800px) {
+      padding: 1rem 15%;
     }
 
-    
+    @media screen and (max-width: 800px) {
+      border-top: 1px solid #162755;
+      border-left: none;
+      width: 100%;
+    }
+
+    @media screen and (max-width: 600px) {
+      padding: 0;
+    }
+  }
+
+  > button {
+    background-color: #162755;
+    color: white;
+    font-weight: lighter;
+    font-size: 0.9rem;
+    padding: 0.6rem 1.8rem;
+    margin: 2rem;
+    border-radius: 10px;
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #c0d6ecbc, #c0d6ecbc);
+  // height: 100px;
+  position: relative;
+  margin-bottom: 20px;
+
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-repeat: repeat-x;
+  }
+
+  &::before {
+    height: 10px;
+    background-size: 20px 20px;
+    background-image: radial-gradient(
+      circle at 10px -5px,
+      transparent 12px,
+      white 13px
+    );
+  }
+
+  &::after {
+    height: 15px;
+    background-size: 40px 20px;
+    background-image: radial-gradient(
+      circle at 10px 15px,
+      white 12px,
+      transparent 13px
+    );
+  }
+}
+
+.content {
+  color: #333;
+  font-size: 0.8em;
+  padding: 1em;
 }

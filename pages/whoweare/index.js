@@ -18,7 +18,7 @@ export default function Home() {
       <AboutTSF />
       <Mission />
       <Whyweserve />
-      <DonateBand/>
+      <DonateBand />
       <Footer />
     </div>
   );

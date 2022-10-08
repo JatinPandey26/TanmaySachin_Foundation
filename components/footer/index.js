@@ -19,11 +19,12 @@ const Footer = () => {
             Tanmay <br /> Sachin <br /> Foundation
           </p>
         </div>
+
         <div className={styles.addressWrapper}>
           <h4>Address</h4>
           <p>
-            C/O Preeti Sumant Karanje, A-Juve, P-Dalepal-Rajapur District-
-            Ratnagiri, Juve, Ratnagiri Maharashtra - 416702, India
+            A-Juve, P-Dalepal-Rajapur District- Ratnagiri, Juve, Ratnagiri
+            Maharashtra - 416702, India
           </p>
         </div>
         <div className={styles.connectWrapper}>

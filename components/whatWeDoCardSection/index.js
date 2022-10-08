@@ -4,13 +4,6 @@ import { ProjectCard } from "../projectcards";
 import Link from "next/link";
 
 export const CardSection = () => {
-  const info = [
-    { title: "Title1", desc: "Description1" },
-    { title: "Title2", desc: "Description2 " },
-    { title: "Title3", desc: "Description3" },
-    { title: "Title4", desc: "Description4" },
-  ];
-
   return (
     <div className={styles.cardsContainer}>
       <head>
@@ -27,9 +20,9 @@ export const CardSection = () => {
         </h4>
       </Link>
       <div className={styles.cardWrapper}>
-        {info.map((ele, index) => {
-          return <ProjectCard key={index} title={ele.title} desc={ele.desc} />;
-        })}
+        <ProjectCard />
+        <ProjectCard />
+        <ProjectCard />
       </div>
     </div>
   );

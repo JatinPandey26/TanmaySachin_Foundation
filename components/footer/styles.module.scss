@@ -1,52 +1,60 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@900&display=swap");
 
 .wrapper {
   //margin-top: 5rem;
   // background-color: #C0D6EC;
-  background-image: url('/footerbg.png');
+  background-image: url("/footerbg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   padding: 1rem;
   padding-top: 3rem;
 
-  >.upperwrapper {
+  > .upperwrapper {
     display: flex;
     justify-content: space-evenly;
 
-    @media screen and (max-width:650px) {
+    @media screen and (max-width: 650px) {
       flex-direction: column;
       align-items: center;
-      >.introWrapper{
+      > .introWrapper {
         height: 7rem;
       }
     }
 
-    >div {
+    > div {
       height: 12rem;
       width: 15rem;
       // background: #000;
     }
 
-    >.introWrapper {
+    > .introWrapper {
       display: flex;
+      flex-direction: row;
       align-items: flex-start;
       justify-content: center;
 
       // background-color: aquamarine;
-      >p {
-        font-family: 'Noto Sans', sans-serif;
+
+      > p {
+        font-family: "Noto Sans", sans-serif;
         color: #152453;
+
         margin-left: 0.6rem;
-        ;
         font-size: 0.8rem;
         font-weight: 600;
-
       }
 
+      > p {
+        font-family: "Noto Sans", sans-serif;
+        color: #152453;
+        margin-left: 0.6rem;
+        font-size: 0.8rem;
+        font-weight: 600;
+      }
     }
 
-    >.addressWrapper {
+    > .addressWrapper {
       color: #152453;
       text-align: center;
       display: flex;
@@ -54,18 +62,17 @@
       align-items: center;
 
       // justify-content: center;
-      >h4 {
+      > h4 {
         font-size: 1.3rem;
         font-weight: 600;
-
       }
 
-      >p {
-        margin-top: 2.5rem;
+      > p {
+        margin-top: 2rem;
       }
     }
 
-    >.connectWrapper {
+    > .connectWrapper {
       color: #152453;
       text-align: center;
       display: flex;
@@ -73,14 +80,13 @@
       align-items: center;
 
       // justify-content: center;
-      >h4 {
+      > h4 {
         font-size: 1.3rem;
         font-weight: 600;
-
       }
 
-      >p {
-        margin-top: 2.5rem;
+      > p {
+        margin-top: 2rem;
       }
     }
   }

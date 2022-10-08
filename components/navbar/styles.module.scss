@@ -1,16 +1,16 @@
-.listItems{
-    cursor: pointer;
-    color: #FFD800;
-    font-weight: lighter;
-    text-decoration: none;
-    
-    &:hover{
-        color: white;
-    }
+.listItems {
+  cursor: pointer;
+  color: #ffd800;
+  font-weight: lighter;
+  text-decoration: none;
+
+  &:hover {
+    color: white;
+  }
 }
 
-.title{
-    @media screen and (max-width:850px) {
-        display:none;
-    }
+.title {
+  @media screen and (max-width: 850px) {
+    display: none;
+  }
 }
