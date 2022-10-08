@@ -7,7 +7,7 @@ import  RegBanner  from '../components/reginfobanner'
 import SendDonationBand from '../components/sendDonations'
 import { CardSection } from '../components/whatWeDoCardSection'
 import WhoWeAreBand from '../components/whoWeAreHome'
-import styles from '../styles/Home.module.css'
+
 
 export default function Home() {
   return (
