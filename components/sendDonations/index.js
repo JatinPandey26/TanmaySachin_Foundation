@@ -15,34 +15,19 @@ const SendDonationBand = () => {
         <div className="p-3 m-2 ">
           <p>
             Every donation will lead to a great future & Inspire many more
-            people.No matter what you serve, what you donate what you give,each
-            & every donation will make great impact & spread happiness. Donate
-            and get{" "}
-            <span className="font-semibold text-[#F01152] italic">
-              80g TAX BENEFITS
-            </span>
+            people.
           </p>
         </div>
         <div className=" p-3 m-2">
-          <p>
+        <p>
             Every donation will lead to a great future & Inspire many more
-            people.No matter what you serve, what you donate what you give,each
-            & every donation will make great impact & spread happiness. Donate
-            and get{" "}
-            <span className="font-semibold text-[#F01152] italic">
-              80g TAX BENEFITS
-            </span>
+            people.
           </p>
         </div>
         <div className=" p-3 m-2">
-          <p>
+        <p>
             Every donation will lead to a great future & Inspire many more
-            people.No matter what you serve, what you donate what you give,each
-            & every donation will make great impact & spread happiness. Donate
-            and get{" "}
-            <span className="font-semibold text-[#F01152] italic">
-              80g TAX BENEFITS
-            </span>
+            people.
           </p>
         </div>
       </div>
