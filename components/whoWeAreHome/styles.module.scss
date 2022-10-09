@@ -7,6 +7,7 @@
   margin-top: 5rem;
   margin-left: 10vw;
   margin-right: 10vw;
+  margin-bottom: 5rem;
   overflow: hidden;
 
   @media screen and (max-width: 1000px) {
@@ -40,7 +41,7 @@
 
     > img {
       width: 100%;
-      object-fit: contain;
+      object-fit: fill;
     }
 
     @media screen and (max-width: 900px) {
@@ -68,8 +69,10 @@
     color: #162755;
     font-family: "Noto Sans", sans-serif;
     font-size: 3rem;
+    //border-color: #162755;
 
     -webkit-text-stroke: 0.5px white;
+
     font-weight: 800;
   }
 
