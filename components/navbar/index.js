@@ -49,7 +49,7 @@ function Navbar() {
                     offset={50}
                     duration={500}
                   >
-                    <a className="cursor-pointer text-[#152453] text-[#152453]  font-semibold no-underline text-[#152453] px-3 py-2 rounded-md text-sm font-semibold ">
+                    <a className="cursor-pointer text-[#152453]   font-semibold no-underline px-3 py-2 rounded-md  ">
                       Who we are
                     </a>
                   </Link>
@@ -61,7 +61,7 @@ function Navbar() {
                     offset={50}
                     duration={500}
                   >
-                    <a className="cursor-pointer text-[#152453] text-[#152453]  font-semibold no-underline text-[#152453] px-3 py-2 rounded-md text-sm font-semibold ">
+                    <a className="cursor-pointer   font-semibold no-underline text-[#152453] px-3 py-2 rounded-md  ">
                       What we do
                     </a>
                   </Link>
@@ -74,7 +74,7 @@ function Navbar() {
                     offset={50}
                     duration={500}
                   >
-                    <a className="cursor-pointer text-[#152453] text-[#152453]  font-semibold no-underline text-[#152453] px-3 py-2 rounded-md text-sm font-semibold ">
+                    <a className="cursor-pointer  no-underline text-[#152453] px-3 py-2 rounded-md  font-semibold ">
                       Gallery
                     </a>
                   </Link>
@@ -87,7 +87,7 @@ function Navbar() {
                     offset={50}
                     duration={500}
                   >
-                    <a className="cursor-pointer text-[#152453] text-[#152453]  font-semibold no-underline text-[#152453] px-3 py-2 rounded-md text-sm font-semibold  ">
+                    <a className="cursor-pointer  no-underline text-[#152453] px-3 py-2 rounded-md font-semibold  ">
                       Contact Us
                     </a>
                   </Link>

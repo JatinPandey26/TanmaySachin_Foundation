@@ -19,13 +19,13 @@ const SendDonationBand = () => {
           </p>
         </div>
         <div className=" p-3 m-2">
-        <p>
+          <p>
             Every donation will lead to a great future & Inspire many more
             people.
           </p>
         </div>
         <div className=" p-3 m-2">
-        <p>
+          <p>
             Every donation will lead to a great future & Inspire many more
             people.
           </p>

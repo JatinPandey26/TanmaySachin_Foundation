@@ -130,7 +130,6 @@ const WhatWeDo = () => {
             be eligible for certain immigration benefits.
           </p>
         </div>
-        
       </div>
 
       <Footer />
