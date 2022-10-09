@@ -13,7 +13,7 @@ export const CardSection = () => {
         ></script>
         <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
       </head>
-      <h2 className={styles.heading}>What We Do</h2>
+      <h2 className={styles.heading}>Our Campaigns</h2>
       <Link href={"/whatwedo"}>
         <h4 className="hover:underline">
           View All <ion-icon name="chevron-forward-outline"></ion-icon>
