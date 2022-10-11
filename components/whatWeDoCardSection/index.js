@@ -3,14 +3,11 @@ import styles from "./styles.module.scss";
 import { ProjectCard } from "../projectcards";
 import Link from "next/link";
 
-
 export const CardSection = () => {
-  
-
   return (
     <div className={styles.cardsContainer}>
       <head>
-        <script 
+        <script
           type="module"
           src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
         ></script>
@@ -23,9 +20,9 @@ export const CardSection = () => {
         </h4>
       </Link>
       <div className={styles.cardWrapper}>
-        <ProjectCard/>
-        <ProjectCard/>
-        <ProjectCard/>
+        <ProjectCard />
+        <ProjectCard />
+        <ProjectCard />
       </div>
     </div>
   );
