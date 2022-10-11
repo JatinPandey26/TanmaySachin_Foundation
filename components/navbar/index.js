@@ -49,7 +49,7 @@ function Navbar() {
                     offset={50}
                     duration={500}
                   >
-                    <a className="cursor-pointer text-[#152453] text-[#152453]  font-semibold no-underline text-[#152453] px-3 py-2 rounded-md text-sm font-semibold ">
+                    <a className="cursor-pointer text-[#152453]   font-semibold no-underline px-3 py-2 rounded-md  ">
                       Who we are
                     </a>
                   </Link>
@@ -61,7 +61,7 @@ function Navbar() {
                     offset={50}
                     duration={500}
                   >
-                    <a className="cursor-pointer text-[#152453] text-[#152453]  font-semibold no-underline text-[#152453] px-3 py-2 rounded-md text-sm font-semibold ">
+                    <a className="cursor-pointer   font-semibold no-underline text-[#152453] px-3 py-2 rounded-md  ">
                       What we do
                     </a>
                   </Link>
@@ -74,7 +74,7 @@ function Navbar() {
                     offset={50}
                     duration={500}
                   >
-                    <a className="cursor-pointer text-[#152453] text-[#152453]  font-semibold no-underline text-[#152453] px-3 py-2 rounded-md text-sm font-semibold ">
+                    <a className="cursor-pointer  no-underline text-[#152453] px-3 py-2 rounded-md  font-semibold ">
                       Gallery
                     </a>
                   </Link>
@@ -87,7 +87,7 @@ function Navbar() {
                     offset={50}
                     duration={500}
                   >
-                    <a className="cursor-pointer text-[#152453] text-[#152453]  font-semibold no-underline text-[#152453] px-3 py-2 rounded-md text-sm font-semibold  ">
+                    <a className="cursor-pointer  no-underline text-[#152453] px-3 py-2 rounded-md font-semibold  ">
                       Contact Us
                     </a>
                   </Link>
@@ -100,7 +100,7 @@ function Navbar() {
                     offset={50}
                     duration={500}
                   >
-                    <span className="flex h-[2.4rem] items-center wrapList cursor-pointer no-underline justify-self-end bg-[#F01152] self-center  text-white hover:text-[#152453] px-3 py-2 rounded-[5rem] text-sm font-semibold  ">
+                    <div className="flex h-[2.4rem] items-center wrapList cursor-pointer no-underline justify-self-end bg-[#F01152] self-center  text-white hover:text-[#152453] px-3 py-2 rounded-[5rem] text-sm font-semibold  ">
                       <Image
                         src={"/donationIcon.png"}
                         className="rounded-lg object-contain "
@@ -109,7 +109,7 @@ function Navbar() {
                         height="30%"
                       />
                       <p className="ml-2">Donate Now</p>
-                    </span>
+                    </div>
                   </Link>
                 </div>
               </div>

@@ -1,0 +1,22 @@
+.aboutTSFWrap {
+  display: flex;
+  margin-top: 4rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+
+  //background-color: rgba(128, 128, 128, 0.114);
+  > .aboutTSF {
+    width: 70%;
+    color: #152453;
+    padding: 4rem;
+    text-align: justify;
+  }
+  > .Image {
+    width: 40%;
+    height: 25rem;
+    padding-right: 5rem;
+    padding-top: 3rem;
+
+    border-radius: 5rem;
+  }
+}

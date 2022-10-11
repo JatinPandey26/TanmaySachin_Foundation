@@ -2,7 +2,7 @@
     padding: 3rem;
     background-image: url('/trypic.jpg');
     background-size: cover;
-    background-position: center;
+    background-position:center;
     position: relative;
     min-height: 30vh;
     display: flex;
@@ -17,7 +17,9 @@
         height: 100%;
         width: 100%;
         z-index: 10;
-        background-color: #5577dbcd;
+        //background-color: #5577dbbf;
+       // background-color: #d03b7794;
+       background-color: #77b5efa8;
     }
 
     >div{
