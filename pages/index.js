@@ -2,6 +2,7 @@
 import Footer from "../components/footer";
 import { HomePic } from "../components/homepageBg";
 import IconBg from "../components/iconBg";
+import IconContainer from "../components/iconContainer";
 import Navbar from "../components/navbar";
 import { ProjectCard } from "../components/projectcards";
 import RegBanner from "../components/reginfobanner";
@@ -18,7 +19,7 @@ export default function Home() {
       <WhoWeAreBand />
       <IconBg />
       <CardSection />
-      <hr className="mt-[0.5rem] w-[90%] m-auto h-[0.1rem] bg-[#607eaa63] " />
+      <hr className="mt-[2rem] w-[90%] m-auto h-[0.2rem] bg-[#f0115052] " />
       <SendDonationBand />
       <Footer />
     </div>

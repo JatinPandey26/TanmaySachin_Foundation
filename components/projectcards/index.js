@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./styles.module.scss";
 
-export const ProjectCard = ({
+const ProjectCard = ({
   title = "Serving the Masses",
   desc = "Providing access to state-of-the-art healthcare, education, employment, and technological advancements to people across the country.",
 }) => {
@@ -15,3 +15,5 @@ export const ProjectCard = ({
     </div>
   );
 };
+
+export default ProjectCard;

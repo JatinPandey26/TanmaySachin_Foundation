@@ -14,11 +14,13 @@ export default function Home() {
     <div className="flex flex-col">
       <Navbar />
       <RegBanner />
-      <h2 className={styles.heading}>About Us</h2>
+      <h1 className={styles.heading}>About Us</h1>
       <AboutTSF />
       <Mission />
       <Whyweserve />
-      <DonateBand />
+      <button className={styles.donateBtn}>
+        <Link href={"/donate"}>Donate Now</Link>
+      </button>
       <Footer />
     </div>
   );

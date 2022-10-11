@@ -1,6 +1,10 @@
 import React from "react";
 import styles from "./styles.module.scss";
-import IconContainer from "../iconContainer";
+// import IconContainer from "../iconContainer";
+import dynamic from 'next/dynamic'
+const IconContainer = dynamic(() => import("../iconContainer"), {
+ssr: false,
+});
 const IconBg = () => {
   const data = [
     { img: "/fooddonation.png", text: "Food Donation" },
