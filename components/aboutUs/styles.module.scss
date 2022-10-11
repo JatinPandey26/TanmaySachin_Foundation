@@ -4,19 +4,55 @@
   padding-left: 5rem;
   padding-right: 5rem;
 
+  @media screen and (max-width : 1200px) {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  @media screen and (max-width : 950px) {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+
+  @media screen and (max-width : 850px) {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
   //background-color: rgba(128, 128, 128, 0.114);
-  > .aboutTSF {
+  >.aboutTSF {
     width: 70%;
     color: #152453;
     padding: 4rem;
     text-align: justify;
+
+    @media screen and (max-width : 850px) {
+      width: 90%;
+
+      margin: auto;
+    }
+
+    @media screen and (max-width : 550px) {
+      padding: 1rem;
+      padding-top: 4rem;
+      
+    }
   }
-  > .Image {
+
+  >.Image {
     width: 40%;
     height: 25rem;
     padding-right: 5rem;
     padding-top: 3rem;
 
     border-radius: 5rem;
+
+    @media screen and (max-width : 850px) {
+      width: 70%;
+      height: 25rem;
+      margin: auto;
+      padding-right: 0rem;
+
+    }
   }
 }

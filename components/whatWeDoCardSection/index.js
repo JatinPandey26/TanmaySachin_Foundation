@@ -1,6 +1,10 @@
 import React from "react";
 import styles from "./styles.module.scss";
-import { ProjectCard } from "../projectcards";
+// import { ProjectCard } from "../projectcards";
+import dynamic from 'next/dynamic'
+const ProjectCard = dynamic(() => import("../projectcards"), {
+ssr: false,
+});
 import Link from "next/link";
 
 export const CardSection = () => {
