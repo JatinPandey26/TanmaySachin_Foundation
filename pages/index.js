@@ -19,7 +19,7 @@ export default function Home() {
       <WhoWeAreBand />
       <IconBg />
       <CardSection />
-      <hr className="mt-[2rem] w-[90%] m-auto h-[0.2rem] bg-[#f0115052] " />
+      <hr className="mt-[2rem] w-[90%] m-auto h-[0.2rem] bg-[#15245333] " />
       <SendDonationBand />
       <Footer />
     </div>
