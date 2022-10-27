@@ -1,13 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@900&display=swap");
 
 .wrapper {
-  height: 90vh;
+  height: 112vh;
   margin-top: 1rem;
   z-index: 1;
   background-size: cover;
   background-image: 
-    url("/home.png");
-  background-position: center;
+    url("/homepg.png");
+  background-position: top;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -24,9 +24,9 @@
     > h2 {
       text-shadow: 2px 2px 2px rgb(146, 142, 142);
 
-      width: 60%;
+      width: 70%;
       font-family: "Noto Sans", sans-serif;
-      font-size: 3rem;
+      font-size: 3.5rem;
       font-weight: 200;
       color: white;
 

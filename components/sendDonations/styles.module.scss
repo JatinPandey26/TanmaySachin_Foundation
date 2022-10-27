@@ -1,12 +1,12 @@
 .container {
-  margin: 1rem 0;
+  margin-top: 1rem 0;
   color: #152453;
   margin: auto;
-  background: #c0d6ecbc;
+  background-color: #c0d6ecbc;
   width: 60%;
   padding-left: 3rem;
   padding-right: 3rem;
-  margin-top: 5rem;
+  margin-top: 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,7 +37,7 @@
       padding: 0.6rem 1.8rem;
       margin: 2rem;
       // width: 40%;
-      border-radius: 10px;
+      border-radius: 20px;
       // @media screen and (max-width:700px) {
       //   width: 30%;
       // }
@@ -70,8 +70,8 @@
       @media screen and (max-width: 600px) {
         margin-top: 1rem;
       }
-      
-      >&:hover{
+
+      > &:hover {
         box-shadow: #152453bb 0px 25px 20px -20px;
       }
     }
