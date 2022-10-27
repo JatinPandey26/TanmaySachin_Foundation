@@ -57,7 +57,7 @@ const WhatWeDo = () => {
             India ranked 104 on the global hunger Index. 50% of the Indian
             population sleeps hungry every night. This day's India is loud &
             clear talks that about the issue of food crisis. Almost 3 lac deaths
-            every year are caused by hunger, It’s a serious issue nowadays.
+            every year are caused by hunger, It is a serious issue nowadays.
           </p>
         </div>
         <div className={styles.rightBox}>
@@ -97,7 +97,7 @@ const WhatWeDo = () => {
             we have fed almost 5000 plus stray dogs & cats.During lockdown 2020
             Around 200 stray dogs have died in Mumbai & Navi Mumbai due to
             insufficient food & nutrition. As per the information the lockdown's
-            worst effect has been on animals as they didn’t get enough food.We
+            worst effect has been on animals as they did not get enough food.We
             also provide animals with proper medicines & vaccines for a
             veterinary hospital.
           </p>
