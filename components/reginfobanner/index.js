@@ -3,7 +3,7 @@ import React from "react";
 const RegBanner = () => {
   return (
     <div className="bg-[#162755] p-1 text-white text-center mt-[6rem]">
-      Registeration No : XXXXXXX | PAN : XXXXXX | TAN: XXXXXX
+      CIN : U85300PN2022NPL213854 | PAN : AAJCT6027C | TAN: KLPT03185A
     </div>
   );
 };

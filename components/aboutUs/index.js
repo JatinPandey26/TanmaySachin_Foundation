@@ -42,7 +42,7 @@ export const AboutTSF = () => {
       </div>
       <div className={styles.Image}>
         <img
-          src="gp11.jpg"
+          src="aboutus.jpg"
           className="w-[100%] h-[100%] object-cover rounded-2xl"
         ></img>
       </div>

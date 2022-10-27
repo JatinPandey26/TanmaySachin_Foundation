@@ -14,7 +14,6 @@ const IconBg = () => {
   ];
   return (
     <div className={styles.mainWrapper}>
-      <h1 className={styles.heading}>What We Do</h1>
     <div className={styles.wrapper}>
       <div>
         {data.map((ele, index) => {

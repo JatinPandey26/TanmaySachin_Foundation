@@ -18,9 +18,7 @@ export default function Home() {
       <AboutTSF />
       <Mission />
       <Whyweserve />
-      <button className={styles.donateBtn}>
-        <Link href={"/donate"}>Donate Now</Link>
-      </button>
+      <DonateBand />
       <Footer />
     </div>
   );
