@@ -54,7 +54,7 @@ const WhatWeDo = () => {
           <p>
             Around 4500 children die every day due to hunger &
             malnutrition.According to a source Newspaper, out of 117 countries
-            India ranked 104 on the global hunger Index. 50% of the Indian
+            India ranked 104 on the global hunger index. 50% of the Indian
             population sleeps hungry every night. This day's India is loud &
             clear talks that about the issue of food crisis. Almost 3 lac deaths
             every year are caused by hunger, It is a serious issue nowadays.
