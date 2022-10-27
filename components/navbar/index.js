@@ -93,7 +93,7 @@ function Navbar() {
                   </Link>
 
                   <Link
-                    href={"/donate"}
+                    href={"https://rzp.io/l/sC79EMlorA"}
                     activeClass="contact"
                     to="contact"
                     smooth={true}
