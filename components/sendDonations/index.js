@@ -14,20 +14,20 @@ const SendDonationBand = () => {
       <div className={styles.rightContainer}>
         <div className="p-3 m-2 ">
           <p>
-            Every donation will lead to a great future & Inspire many more
-            people.
+            The amount of your contribution can be little but the change you
+            bring will be monumental.
           </p>
         </div>
         <div className=" p-3 m-2">
           <p>
-            Every donation will lead to a great future & Inspire many more
-            people.
+            Being approved under Section 80G of the Income-tax Act, your
+            donations made to TanmaySachin Foundation are tax exempted.
           </p>
         </div>
         <div className=" p-3 m-2">
           <p>
-            Every donation will lead to a great future & Inspire many more
-            people.
+            When you donate money to TanmaySachin Foundation, you will know for
+            a fact that the your donations are used to help those in need.
           </p>
         </div>
       </div>
