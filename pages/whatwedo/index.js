@@ -15,7 +15,7 @@ const WhatWeDo = () => {
     {
       title: "Medcial Help",
       img: "/medical.png",
-      desc: "Proper vaccines & medicines  to underprivileged people & animals ",
+      desc: "Proper vaccines and medicines  to underprivileged people and animals ",
     },
     {
       title: "Clothes Donation",
@@ -50,12 +50,12 @@ const WhatWeDo = () => {
 
       <div className={styles.rightPicDiv}>
         <div className={styles.leftBox}>
-          <h4>God's Meal Project</h4>
+          <h4> {"God's"} Meal Project</h4>
           <p>
-            Around 4500 children die every day due to hunger &
+            Around 4500 children die every day due to hunger and
             malnutrition.According to a source Newspaper, out of 117 countries
             India ranked 104 on the global hunger index. 50% of the Indian
-            population sleeps hungry every night. This day's India is loud &
+            population sleeps hungry every night. This {"day's"} India is loud and
             clear talks that about the issue of food crisis. Almost 3 lac deaths
             every year are caused by hunger, It is a serious issue nowadays.
           </p>
