@@ -15,7 +15,7 @@ const WhatWeDo = () => {
     {
       title: "Medcial Help",
       img: "/medical.png",
-      desc: "Proper vaccines & medicines  to underprivileged people & animals ",
+      desc: "Proper vaccines and medicines  to underprivileged people and animals ",
     },
     {
       title: "Clothes Donation",
@@ -50,20 +50,18 @@ const WhatWeDo = () => {
 
       <div className={styles.rightPicDiv}>
         <div className={styles.leftBox}>
-          <h4>FOOD FOR ALL</h4>
+          <h4> God&apos;s Meal Project</h4>
           <p>
-            Thanks to a grant from the Illinois Criminal Justice Information
-            Authority (ICJIA), we are able to provide free legal consultation
-            and representation in addition to free mental health services for
-            survivors of domestic abuse or sexual assault. If you have
-            experienced the trauma of domestic abuse, sexual assault or other
-            violent crimes, we are here to support you with the care and
-            resources you need to find healing and move forward. You might also
-            be eligible for certain immigration benefits.
+            Around 4500 children die every day due to hunger and
+            malnutrition.According to a source Newspaper, out of 117 countries
+            India ranked 104 on the global hunger index. 50% of the Indian
+            population sleeps hungry every night. This day&apos;s India is loud and
+            clear talks that about the issue of food crisis. Almost 3 lac deaths
+            every year are caused by hunger, It is a serious issue nowadays.
           </p>
         </div>
         <div className={styles.rightBox}>
-          <img src="/6660.jpg"></img>
+          <img src="/gp2.jpg"></img>
         </div>
       </div>
       <br />
@@ -71,20 +69,20 @@ const WhatWeDo = () => {
       <br />
       <div className={styles.leftPicDiv}>
         <div className={styles.rightBox}>
-          <img src="/6660.jpg"></img>
+          <img src="/foodddd.jpg"></img>
         </div>
         <div className={styles.leftBox}>
-          <h4>FOOD FOR ALL</h4>
+          <h4>Love Lunch Mission</h4>
 
           <p>
-            Thanks to a grant from the Illinois Criminal Justice Information
-            Authority (ICJIA), we are able to provide free legal consultation
-            and representation in addition to free mental health services for
-            survivors of domestic abuse or sexual assault. If you have
-            experienced the trauma of domestic abuse, sexual assault or other
-            violent crimes, we are here to support you with the care and
-            resources you need to find healing and move forward. You might also
-            be eligible for certain immigration benefits.
+            By enrolling in our love lunch mission,each & every needy can be
+            served properly with good meal every day. We also provide good
+            medical facility & medical Aid. No matter what you serve, what you
+            donate what you give,each & every donation will make & a creative
+            impact & spread happiness. Every donation will lead to a great
+            future & Inspire many more people. It's a good investment as your
+            contribution will fund your medical emergencies & will be a great
+            mission ahead.
           </p>
         </div>
       </div>
@@ -93,20 +91,19 @@ const WhatWeDo = () => {
       <br />
       <div className={styles.rightPicDiv}>
         <div className={styles.leftBox}>
-          <h4>FOOD FOR ALL</h4>
+          <h4>Animal Paradise Project</h4>
           <p>
-            Thanks to a grant from the Illinois Criminal Justice Information
-            Authority (ICJIA), we are able to provide free legal consultation
-            and representation in addition to free mental health services for
-            survivors of domestic abuse or sexual assault. If you have
-            experienced the trauma of domestic abuse, sexual assault or other
-            violent crimes, we are here to support you with the care and
-            resources you need to find healing and move forward. You might also
-            be eligible for certain immigration benefits.
+            Since lockdown 2020 we have been feeding stray dogs & cats. Till now
+            we have fed almost 5000 plus stray dogs & cats.During lockdown 2020
+            Around 200 stray dogs have died in Mumbai & Navi Mumbai due to
+            insufficient food & nutrition. As per the information the lockdown's
+            worst effect has been on animals as they did not get enough food.We
+            also provide animals with proper medicines & vaccines for a
+            veterinary hospital.
           </p>
         </div>
         <div className={styles.rightBox}>
-          <img src="/6660.jpg"></img>
+          <img src="/animalsss.png"></img>
         </div>
       </div>
       <br />
@@ -114,20 +111,16 @@ const WhatWeDo = () => {
       <br />
       <div className={styles.leftPicDiv}>
         <div className={styles.rightBox}>
-          <img src="/6660.jpg"></img>
+          <img src="/godsproject.jpg"></img>
         </div>
         <div className={styles.leftBox}>
-          <h4>FOOD FOR ALL</h4>
+          <h4>Miracle School Project</h4>
 
           <p>
-            Thanks to a grant from the Illinois Criminal Justice Information
-            Authority (ICJIA), we are able to provide free legal consultation
-            and representation in addition to free mental health services for
-            survivors of domestic abuse or sexual assault. If you have
-            experienced the trauma of domestic abuse, sexual assault or other
-            violent crimes, we are here to support you with the care and
-            resources you need to find healing and move forward. You might also
-            be eligible for certain immigration benefits.
+            India has the largest population of illiterate adults in the world.
+            Nowadays we also started miracle school project by providing
+            educational facilities to the poor children & by providing proper
+            stationery items to them.
           </p>
         </div>
       </div>
