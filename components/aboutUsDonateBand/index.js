@@ -10,7 +10,7 @@ export const DonateBand = () => {
       </div>
       <div className={styles.buttons}>
         <button className="font-extralight">
-          <Link href={"https://rzp.io/l/sC79EMlorA"}>Help Us by Donating</Link>
+          <Link href={"https://rzp.io/l/cLPVuqwKtx"}>Help Us by Donating</Link>
         </button>
       </div>
     </div>
