@@ -12,7 +12,7 @@ export const HomePic = () => {
         </h2>
         <h3>Help Us to Feed those in Need </h3>
         <button className="font-semibold">
-          <Link href={"https://rzp.io/l/sC79EMlorA"}>Support Us</Link>
+          <Link href={"https://rzp.io/l/cLPVuqwKtx"}>Support Us</Link>
         </button>
       </div>
     </div>
