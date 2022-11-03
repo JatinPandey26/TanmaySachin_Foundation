@@ -38,7 +38,7 @@
     margin: 10rem;
     width: 90%;
     margin: auto;
-
+    align-items: center;
     // background: #000;
     display: flex;
     padding: 2rem;
@@ -64,6 +64,7 @@
 
     > .leftBox {
       // height: 40vh;
+      min-height: 25rem;
       width: 65%;
       background-image: url("/blob4.png");
       background-size: cover;
@@ -107,6 +108,7 @@
     > .leftBox::after {
       content: "";
       height: 100%;
+      
       width: 35%;
       background: #f0f3f7;
       position: absolute;
@@ -129,19 +131,14 @@
     }
 
     > .rightBox {
-      min-height: 100%;
-      height: 25rem;
-      width: 35%;
+      min-height: 60%;
+      height: 20rem;
+      width: 30rem;
       z-index: 100;
-
+      
       @media screen and (max-width: 750px) {
         width: 45%;
       }
-
-      // @media screen and (max-width : 680px) {
-      //     display: none;
-
-      // }
 
       @media screen and (max-width: 960px) {
         width: 70%;
@@ -151,7 +148,7 @@
       > img {
         height: 100%;
         width: 100%;
-        object-fit: contain;
+        object-fit: cover;
       }
     }
   }
@@ -160,7 +157,7 @@
     margin: 10rem;
     width: 90%;
     margin: auto;
-
+    align-items: center;
     // background: #000;
     display: flex;
     padding: 2rem;
@@ -180,12 +177,13 @@
 
     > .leftBox {
       // height: 40vh;
+      min-height: 25rem;
       width: 65%;
       background-image: url("/blob4.png");
       background-size: cover;
       background-position: center;
       padding: 2rem;
-
+      
       z-index: 1;
       position: relative;
 
@@ -245,8 +243,9 @@
     }
 
     > .rightBox {
-      height: 25rem;
-      width: 35%;
+      min-height: 60%;
+      height: 20rem;
+      width: 30rem;
       z-index: 100;
 
       @media screen and (max-width: 750px) {
@@ -262,7 +261,7 @@
       > img {
         height: 100%;
         width: 100%;
-        object-fit: contain;
+        object-fit: cover;
       }
     }
   }
