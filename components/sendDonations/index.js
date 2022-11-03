@@ -1,26 +1,38 @@
+import Link from "next/link";
 import React from "react";
 import styles from "./styles.module.scss";
 
 const SendDonationBand = () => {
   return (
     <div className={styles.container}>
-      <hr
-        className="mb-[2rem] w-[70%] m-auto h-[0.08rem] bg-[#F01152] "
-      />
-      <div>
+      <div className={styles.leftContainer}>
         <h1>Send Us Your Donation</h1>
-        <p>
-          Every donation will lead to a great future & Inspire many more
-          people.No matter what you serve, what you donate what you give,each &
-          every donation will make great impact & spread happiness. Donate and
-          get{" "}
-          <span className="font-semibold text-[#F01152] italic">
-            80g TAX BENEFITS
-          </span>
-        </p>
-      </div>
+        <button>
 
-      <button>Donate Now</button>
+          <Link href={"https://rzp.io/l/cLPVuqwKtx"}>Donate Now</Link>
+
+        </button>
+      </div>
+      <div className={styles.rightContainer}>
+        <div className="p-3 m-2 ">
+          <p>
+            The amount of your contribution can be little but the change you
+            bring will be monumental.
+          </p>
+        </div>
+        <div className=" p-3 m-2">
+          <p>
+            Being approved under Section 80G of the Income-tax Act, your
+            donations made to TanmaySachin Foundation are tax exempted.
+          </p>
+        </div>
+        <div className=" p-3 m-2">
+          <p>
+            When you donate money to TanmaySachin Foundation, you will know for
+            a fact that the your donations are used to help those in need.
+          </p>
+        </div>
+      </div>
     </div>
   );
 };

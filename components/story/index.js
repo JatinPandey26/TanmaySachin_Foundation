@@ -2,7 +2,10 @@ import React from "react";
 import styles from "./styles.module.scss";
 const Story = () => {
   return (
-    <div className={styles.wrapper} style = {{backgroundImage : `url(./trypic.jpg)`}}>
+    <div
+      className={styles.wrapper}
+      style={{ backgroundImage: `url(./trypic.jpg)` }}
+    >
       <div className={styles.heading}>
         <h3 className="font-bold">Our Story</h3>
       </div>
@@ -15,8 +18,9 @@ const Story = () => {
           </p>
           <br />
           <p>
-            <span>Sachin Karanje</span>, the founder, along with co-founder <span>Tanmay Keny</span> has
-            been at the forefront of the different initiatives and programs.
+            <span>Sachin Karanje</span>, the founder, along with co-founder{" "}
+            <span>Tanmay Keny</span> has been at the forefront of the different
+            initiatives and programs.
           </p>
           <p>
             During the lockdown, when daily workers, labourers, and beggars were

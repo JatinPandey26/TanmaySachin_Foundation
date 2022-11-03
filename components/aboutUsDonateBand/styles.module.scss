@@ -1,0 +1,31 @@
+.donateBandWrap {
+  margin-top: 4rem;
+  width: 100%;
+  background: #152453e3;
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 12vh;
+  > .buttons {
+    padding-bottom: 2rem;
+    align-items: center;
+    > button {
+      background-color: rgba(255, 255, 255, 0.877);
+      color: 152453;
+      font-weight: bold;
+      font-size: 0.9rem;
+      padding: 0.8rem 1.8rem;
+      margin-top: 2rem;
+      border-radius: 20px;
+
+      @media screen and (max-width: 1200px) {
+        width: 40%;
+      }
+
+      @media screen and (max-width: 800px) {
+        width: 50%;
+      }
+    }
+  }
+}
