@@ -2,6 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+  BASE_URL: process.env.BASE_URL,
 }
 
 module.exports = nextConfig

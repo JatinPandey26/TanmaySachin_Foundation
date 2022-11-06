@@ -1,7 +1,35 @@
 import styles from "./styles.module.scss";
-import React from "react";
+import db from "./firebase";
+import { addDoc, collection, getDocs } from "firebase/firestore";
+import { useState } from "react";
 
 export const Volunteer = () => {
+  const userCollectionRef = collection(db, "users");
+  const [userName, setUserName] = useState("");
+  const [userEmail, setUserEmail] = useState("");
+  async function joinUsHandler(e) {
+    e.preventDefault();
+
+    const querySnapshot = await getDocs(userCollectionRef);
+
+    // check if already existed
+    for (let i = 0; i < querySnapshot.docs.length; i++) {
+      const doc = querySnapshot.docs[i];
+      if (doc.data().email === userEmail) {
+        alert("Volunteer already existed");
+        return;
+      }
+    }
+
+    addDoc(collection(db, "users"), {
+      name: userName,
+      email: userEmail,
+    });
+
+    setUserEmail("");
+    setUserName("");
+  }
+
   return (
     <div className={styles.mainContainer}>
       <div className={styles.formContainer}>
@@ -13,6 +41,10 @@ export const Volunteer = () => {
               type="text"
               name="name"
               placeholder="Full Name"
+              value={userName}
+              onChange={(e) => {
+                setUserName(e.target.value);
+              }}
             />
           </label>
           <label>
@@ -21,9 +53,13 @@ export const Volunteer = () => {
               type="email"
               name="mail"
               placeholder="Email"
+              value={userEmail}
+              onChange={(e) => setUserEmail(e.target.value)}
             />
           </label>
-          <button className={styles.button}>Join Us</button>
+          <button className={styles.button} onClick={(e) => joinUsHandler(e)}>
+            Join Us
+          </button>
         </form>
       </div>
       <div className={styles.imgContainer}>
