@@ -44,7 +44,7 @@ const Footer = () => {
             Aditi Gemini
           </a>{" "}
           &{" "}
-          <a href="https://www.linkedin.com/in/aditi-gemini-374109227/">
+          <a href="https://www.linkedin.com/in/jatin-pandey-18194b1a0/">
             {" "}
             Jatin Pandey
           </a>
