@@ -3,16 +3,21 @@ import styles from "./styles.module.scss";
 
 const Gallery = () => {
   const images = [
-    "9.jpg",
-    "14.jpg",
+    "4.jpg",
+    "6.jpg",
+    "1.jpg",
+    "3.jpg",
+    "11.jpg",
+    "8.jpg",
+
     "15.jpg",
     "16.jpg",
-    "17.jpg",
+
     "18.jpg",
-    "19.jpg",
-    "20.jpg",
+    "40.jpg",
     "/gp1.jpg",
     "/gp2.jpg",
+    "2.jpg",
     "/gp3.jpg",
     "/gp4.jpg",
     "/gp5.jpg",
@@ -24,7 +29,6 @@ const Gallery = () => {
     "/gp11.jpg",
     "/gp12.jpg",
     "/gp13.jpg",
-    "/gp14.jpg",
   ];
 
   return (
