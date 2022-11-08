@@ -1,30 +1,40 @@
 .donateBandWrap {
   margin-top: 4rem;
-  width: 100%;
-  background: #152453e3;
-  backdrop-filter: blur(10px);
+  background: #607eaadb;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 12vh;
-  > .buttons {
-    padding-bottom: 2rem;
+  height: 25vh;
+  > div {
+    > img {
+      border-radius: 50%;
+    }
+  }
+  .donateText {
+    padding: 3rem;
+    display: flex;
     align-items: center;
-    > button {
-      background-color: rgba(255, 255, 255, 0.877);
-      color: 152453;
-      font-weight: bold;
-      font-size: 0.9rem;
-      padding: 0.8rem 1.8rem;
-      margin-top: 2rem;
-      border-radius: 20px;
+    justify-content: center;
+    > .buttons {
+      padding-bottom: 2rem;
+      align-items: center;
+      > button {
+        
+        background-color: white;
+        color: #152453;
+        font-weight: 600;
+        font-size: 0.9rem;
+        padding: 0.8rem 1.8rem;
+        margin-top: 2rem;
+        border-radius: 20px;
 
-      @media screen and (max-width: 1200px) {
-        width: 40%;
-      }
+        @media screen and (max-width: 1200px) {
+          width: 40%;
+        }
 
-      @media screen and (max-width: 800px) {
-        width: 50%;
+        @media screen and (max-width: 800px) {
+          width: 50%;
+        }
       }
     }
   }
