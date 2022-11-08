@@ -8,9 +8,7 @@ const SendDonationBand = () => {
       <div className={styles.leftContainer}>
         <h1>Send Us Your Donation</h1>
         <button>
-
           <Link href={"https://rzp.io/l/cLPVuqwKtx"}>Donate Now</Link>
-
         </button>
       </div>
       <div className={styles.rightContainer}>
