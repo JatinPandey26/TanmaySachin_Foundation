@@ -4,8 +4,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 html,
 body {
+  /* width: 400px; */
+  /* margin: 0 auto; */
+  word-break: break-all;
   padding: 0;
-  margin: 0;
+ 
   font-family:  'Poppins', sans-serif;
 }
 

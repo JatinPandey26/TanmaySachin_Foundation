@@ -3,10 +3,12 @@ import db from "./firebase";
 import { addDoc, collection, getDocs } from "firebase/firestore";
 import { useState } from "react";
 
+//jukbybbdcknmmssf
 export const Volunteer = () => {
   const userCollectionRef = collection(db, "users");
   const [userName, setUserName] = useState("");
   const [userEmail, setUserEmail] = useState("");
+  const [isExist, setIsExist] = useState(false);
   async function joinUsHandler(e) {
     e.preventDefault();
 
@@ -16,14 +18,21 @@ export const Volunteer = () => {
     for (let i = 0; i < querySnapshot.docs.length; i++) {
       const doc = querySnapshot.docs[i];
       if (doc.data().email === userEmail) {
-        alert("Volunteer already existed");
+        setIsExist(true);
+        setUserEmail("");
+        setUserName("");
         return;
       }
     }
 
-    addDoc(collection(db, "users"), {
+    await addDoc(collection(db, "users"), {
       name: userName,
       email: userEmail,
+    });
+    
+    await fetch("/api/mail", {
+      method: "post",
+      body: JSON.stringify({ name: userName, email: userEmail }),
     });
 
     setUserEmail("");
@@ -37,7 +46,7 @@ export const Volunteer = () => {
         <form className={styles.form}>
           <label>
             <input
-              className="m-[1rem]"
+              className="m-[1rem] text-sm p-2 min-w-[60%] bg-white"
               type="text"
               name="name"
               placeholder="Full Name"
@@ -49,7 +58,7 @@ export const Volunteer = () => {
           </label>
           <label>
             <input
-              className="m-[1rem]"
+              className="m-[1rem] text-sm p-2 min-w-[60%]"
               type="email"
               name="mail"
               placeholder="Email"
@@ -60,6 +69,8 @@ export const Volunteer = () => {
           <button className={styles.button} onClick={(e) => joinUsHandler(e)}>
             Join Us
           </button>
+
+          {isExist && <p className="text-sm text-[#F01152]"> ** You are already a part of our family.</p>}
         </form>
       </div>
       <div className={styles.imgContainer}>
