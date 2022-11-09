@@ -1,8 +1,9 @@
 .wrapper {
   width: 80%;
+  
   margin: auto;
   min-height: 70vh;
-
+ 
   margin-top: 2rem;
   margin-bottom: 2rem;
   display: flex;
@@ -11,6 +12,7 @@
   > img {
     height: 25rem;
     width: 31%;
+    min-width: 20rem;
     margin: 0.5rem;
     transition: 0.2s ease-in-out;
     &:hover {
