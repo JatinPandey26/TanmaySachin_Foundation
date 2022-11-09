@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 .wrapper {
-  height: 112vh;
+  height: 90vh;
   margin-top: 1rem;
+  width: 100%;
   z-index: 1;
   background-size: cover;
   background-image: url("/homepg.png");
@@ -9,6 +10,11 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
+
+  @media  screen  and (max-width : "800px") {
+    height: 60vh;
+  }
+
   > .headings {
     text-align: center;
     font-family: "Poppins", sans-serif;
