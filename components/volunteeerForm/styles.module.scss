@@ -2,7 +2,7 @@
 .mainContainer {
   position: relative;
   display: flex;
-  // background-color: aqua;
+ 
   justify-content: space-evenly;
   margin: auto;
   margin-top: 3rem;
@@ -27,7 +27,6 @@
 
   padding: 2rem;
   z-index: 2;
-  // background-color: violet;
   font-size: 1.7rem;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
@@ -39,13 +38,8 @@
   margin-top: 2rem;
   display: flex;
   flex-direction: column;
-  // > label {
-  //   > input {
-  //     border-radius: 1rem;
-  //   }
-  // }
+
   ::placeholder {
-    /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: #152453;
     opacity: 5; /* Firefox */
     font-size: 1.2rem;
@@ -58,9 +52,10 @@
   z-index: 2;
   > img {
     padding: 2rem;
-    height: 60vh;
-    width: 27vw;
+    height: 90%;
+    width: 20rem;
   }
+
 }
 .button {
   z-index: 2;
