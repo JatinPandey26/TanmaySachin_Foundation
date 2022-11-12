@@ -10,9 +10,11 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   > img {
+
     height: 25rem;
     width: 31%;
     min-width: 20rem;
+
     margin: 0.5rem;
     transition: 0.2s ease-in-out;
     &:hover {

@@ -9,14 +9,15 @@ const Footer = () => {
     <div className={styles.wrapper}>
       <div className={styles.upperwrapper}>
         <div className={styles.introWrapper}>
-          <Image
+          <img
             src={"/logotsf.png"}
-            width="60%"
-            height="60%"
-            className="object-contain"
-          ></Image>
+            width="30%"
+            height="40%"
+            className="object-cover"
+          ></img>
           <p>
-            Tanmay <br /> Sachin <br /> Foundation
+            Our Mission is to work for underprivileged people and animals by
+            providing them meals, medical treatment and proper clothes .
           </p>
         </div>
 
@@ -29,7 +30,7 @@ const Footer = () => {
         </div>
         <div className={styles.connectWrapper}>
           <h4>Connect with Us</h4>
-          <p>989XXXXXXX</p>
+          <p>8108090899</p>
         </div>
       </div>
       <hr className="w-[90%] m-auto h-[0.05rem]  mb-[1rem]" />

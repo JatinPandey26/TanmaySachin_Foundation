@@ -5,7 +5,7 @@ const Whyweserve = () => {
   return (
     <div className={styles.wrapper}>
       <div className={styles.content}>
-        <h3 className="font-bold text-xl">Why do we serve Poors & Animals?</h3>
+        <h3 className="font-bold mb-3 text-[2rem] ">Why do we serve Poors & Animals?</h3>
         <p>
           According to FAO 2019 Reports, about 14.5% of the Indian population
           falls under the under-nourished category and around 8.8 lakhs children
