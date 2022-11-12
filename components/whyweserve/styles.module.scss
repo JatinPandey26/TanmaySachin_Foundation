@@ -25,7 +25,13 @@
     height: 25rem;
     padding-right: 5rem;
     padding-top: 3rem;
-    border-radius: 5rem;
+   
+    //border-radius: 5rem;
+    >img{
+      
+      border: 0.5rem double #152453d5;
+      
+    }
 
     @media screen and (max-width: 850px) {
       padding-right: 0rem;
