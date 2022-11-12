@@ -17,7 +17,7 @@
 
   .mission {
     background-color: #152453;
-    width: 40vw;
+    width: 50vw;
     height: 100%;
     text-align: left;
     padding: 2rem;
@@ -30,10 +30,12 @@
   .vision {
     background-color: #607eaa;
     padding: 2rem;
-    width: 40vw;
+    width: 50vw;
     height: 100%;
     padding-left: 2rem;
     font-size: 1.2rem;
+    margin-left: -3rem;
+    margin-top: 8rem;
     padding-right: 2rem;
     @media screen and (max-width: 500px) {
       margin-top: 2rem;

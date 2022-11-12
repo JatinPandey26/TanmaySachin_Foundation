@@ -38,9 +38,11 @@
 }
 .imgContainer {
   > img {
-    padding: 2rem;
+   // padding: 2rem;
     height: 60vh;
     width: 27vw;
+    border-right: 1rem inset #C0D6EC;
+    border-bottom: 1rem inset #C0D6EC;
   }
 }
 .button {
