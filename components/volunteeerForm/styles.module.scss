@@ -1,16 +1,32 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 .mainContainer {
+  position: relative;
   display: flex;
-  // background-color: aqua;
+ 
   justify-content: space-evenly;
   margin: auto;
   margin-top: 3rem;
   margin-bottom: 5rem;
-  //border: 1px #152453 solid;
+  background-color: #152453;
+  border: 1px #152453 solid;
+  z-index: 2;
 }
+
+.mainContainer::before{
+  content:  "";
+  height: 100%;
+  width: 100%;
+  top: -2rem;
+  left: -2rem;
+  position: absolute;
+  background: #f5f5f5;
+  z-index: 1;
+}
+
 .formContainer {
+
   padding: 2rem;
-  // background-color: violet;
+  z-index: 2;
   font-size: 1.7rem;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
@@ -18,34 +34,39 @@
   width: 50%;
 }
 .form {
+  z-index: 2;
   margin-top: 2rem;
   display: flex;
   flex-direction: column;
-  // > label {
-  //   > input {
-  //     border-radius: 1rem;
-  //   }
-  // }
+
   ::placeholder {
-    /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: #152453;
     opacity: 5; /* Firefox */
     font-size: 1.2rem;
     font-weight: 300;
-    background-color: #c0d6ec48;
+    background-color: #ffffff48;
     padding: 2rem;
   }
 }
 .imgContainer {
+  z-index: 2;
   > img {
+<<<<<<< HEAD
    // padding: 2rem;
     height: 60vh;
     width: 27vw;
     border-right: 1rem inset #C0D6EC;
     border-bottom: 1rem inset #C0D6EC;
+=======
+    padding: 2rem;
+    height: 90%;
+    width: 20rem;
+>>>>>>> d5476792dd4a1f706757627df81bb0769b02b713
   }
+
 }
 .button {
+  z-index: 2;
   background-color: #162755;
   color: white;
   font-weight: lighter;
