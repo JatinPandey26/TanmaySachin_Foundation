@@ -1,0 +1,12 @@
+{
+    "routes" : [
+        {
+            "src" : "/api/mail.js",
+            "methods" : [
+                "POST",
+                "GET"
+            ],
+            "dest" : "/api/mail.js"
+        }
+    ]
+}

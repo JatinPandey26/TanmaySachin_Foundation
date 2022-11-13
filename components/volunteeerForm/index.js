@@ -3,7 +3,7 @@ import db from "./firebase";
 import { addDoc, collection, getDocs } from "firebase/firestore";
 import { useState } from "react";
 
-//jukbybbdcknmmssf
+
 export const Volunteer = () => {
   const userCollectionRef = collection(db, "users");
   const [userName, setUserName] = useState("");
