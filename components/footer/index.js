@@ -1,12 +1,17 @@
 import styles from "./styles.module.scss";
-import Image from "next/image";
-// import LocationOnIcon from "@mui/icons-material/LocationOn";
-// import EmailOutlinedIcon from "@mui/icons-material/EmailOutlined";
-// import LocalPhoneOutlinedIcon from "@mui/icons-material/LocalPhoneOutlined";
-// import LanguageIcon from "@mui/icons-material/Language";
 const Footer = () => {
   return (
     <div className={styles.wrapper}>
+      <head>
+        <script
+          type="module"
+          src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+        ></script>
+        <script
+          nomodule
+          src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+        ></script>
+      </head>
       <div className={styles.upperwrapper}>
         <div className={styles.introWrapper}>
           <img
@@ -31,6 +36,20 @@ const Footer = () => {
         <div className={styles.connectWrapper}>
           <h4>Connect with Us</h4>
           <p>8108090899</p>
+          <div>
+          <div className={styles.connectLink}>
+            <ion-icon name="logo-facebook"></ion-icon>
+            <p>Facebook</p>
+          </div>
+          <div className={styles.connectLink}>
+            <ion-icon name="logo-instagram"></ion-icon>
+            <p>Instagram</p>
+          </div>
+          <div className={styles.connectLink}>
+            <ion-icon name="logo-twitter"></ion-icon>
+            <p>Twitter</p>
+          </div>
+          </div>
         </div>
       </div>
       <hr className="w-[90%] m-auto h-[0.05rem]  mb-[1rem]" />

@@ -1,26 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
 .mainContainer {
   position: relative;
   display: flex;
- 
+
   justify-content: space-evenly;
   margin: auto;
   margin-top: 3rem;
   margin-bottom: 5rem;
   background-color: #152453;
-  border: 1px #152453 solid;
-  z-index: 2;
-}
-
-.mainContainer::before{
-  content:  "";
-  height: 100%;
-  width: 100%;
-  top: -2rem;
-  left: -2rem;
-  position: absolute;
   background: #f5f5f5;
-  z-index: 1;
+  border-right: 20px #152453 solid;
+  border-bottom: 20px #152453 solid;
+  z-index: 2;
 }
 
 .formContainer {
@@ -32,31 +24,58 @@
   font-family: "Poppins", sans-serif;
   color: #152453;
   width: 50%;
+
+  @media screen and (max-width : 650px) {
+    width: 100%;
+
+    .donateText div {
+      width: 100%;
+    }
+  }
 }
+
 .form {
   z-index: 2;
   margin-top: 2rem;
   display: flex;
   flex-direction: column;
 
+  >label input{
+    margin-left: 0;
+    width: 100%;
+    margin: 1rem 0rem;
+  }
+
   ::placeholder {
     color: #152453;
-    opacity: 5; /* Firefox */
+    opacity: 5;
+    
     font-size: 1.2rem;
     font-weight: 300;
     background-color: #ffffff48;
-    padding: 2rem;
+    padding: 1rem;
+  }
+
+  @media screen and (max-width : 650px) {
+    align-items: center;
+    margin: 0;
   }
 }
+
 .imgContainer {
   z-index: 2;
-  > img {
+
+  >img {
     padding: 2rem;
     height: 90%;
     width: 20rem;
   }
 
+  @media screen and (max-width : 650px) {
+    display: none;
+  }
 }
+
 .button {
   z-index: 2;
   background-color: #162755;
@@ -65,6 +84,11 @@
   font-size: 0.9rem;
   padding: 0.6rem 1.8rem;
   margin: 2rem;
-  width: 30%;
+
   border-radius: 20px;
+
+  @media screen and (max-width : 650px) {
+    width: 80%;
+    margin: 2rem 0rem;
+  }
 }

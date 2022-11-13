@@ -10,7 +10,7 @@ export const DonateBand = () => {
         <img src="/images.jpg" ></img>
       </div>
       <div className={styles.donateText}>
-        <div className="text-[2.5rem] text-white w-[60% ] ">
+        <div className="text-[2.5rem] text-white w-[60%] ">
           Make a difference in lives <br />
           of others!
         </div>
