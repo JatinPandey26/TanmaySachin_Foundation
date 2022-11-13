@@ -1,74 +1,73 @@
-//@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@900&display=swap");
 
 .wrapper {
-  //margin-top: 5rem;
-  // background-color: #C0D6EC;
+ 
   background-image: url("/footerbg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   padding: 1rem;
-  padding-top: 3rem;
+  padding-top: 4rem;
 
   > .upperwrapper {
     display: flex;
     justify-content: space-evenly;
-
-    @media screen and (max-width: 650px) {
+    @media screen and (max-width: 950px) {
       flex-direction: column;
       align-items: center;
-      > .introWrapper {
-        height: 7rem;
-      }
+      
     }
 
     > div {
-      height: 12rem;
+      height: 10rem;
       width: 15rem;
-    // background: #000;
     }
 
     > .introWrapper {
       display: flex;
       flex-direction: row;
-      align-items: flex-start;
-      justify-content: center;
-
-      // background-color: aquamarine;
+      align-items: center;
+      justify-content: flex-start;
+      margin-top: -2rem;
+   //  background-color: pink;
 
       > p {
-        //font-family: "Poppins", sans-serif;
+        // font-family: "Noto Sans", sans-serif;
+        text-align: start;
         color: #152453;
-
+        
         margin-left: 0.6rem;
-        font-size: 0.8rem;
+        font-size: 0.7rem;
         font-weight: 600;
+        @media screen and (max-width : 270px) {
+          margin: 1rem;
+          text-align: center;
+        }
       }
 
-      > p {
-        font-family: "Noto Sans", sans-serif;
-        color: #152453;
-        margin-left: 0.6rem;
-        font-size: 0.8rem;
-        font-weight: 600;
+      @media screen and (max-width : 270px) {
+        flex-direction: column;
       }
     }
 
     > .addressWrapper {
+      margin-top: 1rem;
       color: #152453;
       text-align: center;
       display: flex;
       flex-direction: column;
       align-items: center;
-
+      word-break: break-all;
       // justify-content: center;
       > h4 {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         font-weight: 600;
       }
 
       > p {
-        margin-top: 2rem;
+        
+        margin-top: 0.8rem;
+        font-size: 0.9rem;
       }
     }
 
@@ -81,12 +80,21 @@
 
       // justify-content: center;
       > h4 {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         font-weight: 600;
       }
 
       > p {
-        margin-top: 2rem;
+        margin-top: 0.8rem;
+      }
+
+      >div .connectLink{
+        display: flex;
+        align-self: flex-start;
+        align-items: center;
+        >p{
+          margin: 0px 5px;
+        }
       }
     }
   }

@@ -11,7 +11,7 @@ export const Volunteer = () => {
   const [isExist, setIsExist] = useState(false);
   async function joinUsHandler(e) {
     e.preventDefault();
-
+    console.log(process.env.NEXT_PUBLIC_MAIL_API_KEY);
     const querySnapshot = await getDocs(userCollectionRef);
 
     // check if already existed
@@ -25,15 +25,17 @@ export const Volunteer = () => {
       }
     }
 
-    await addDoc(collection(db, "users"), {
-      name: userName,
-      email: userEmail,
-    });
+    
     
     await fetch("/api/mail", {
       method: "post",
-      body: JSON.stringify({ name: userName, email: userEmail }),
-    });
+      body: JSON.stringify({ name: userName, email: userEmail}),
+    }).then(await addDoc(collection(db, "users"), {
+      name: userName,
+      email: userEmail,
+    })).catch(() => {
+      alert("something has gone wrong")
+    })
 
     setUserEmail("");
     setUserName("");
@@ -46,7 +48,7 @@ export const Volunteer = () => {
         <form className={styles.form}>
           <label>
             <input
-              className="m-[1rem] text-sm p-2 min-w-[60%] bg-white"
+              className="text-sm p-2 min-w-[60%] bg-white"
               type="text"
               name="name"
               placeholder="Full Name"
@@ -58,7 +60,7 @@ export const Volunteer = () => {
           </label>
           <label>
             <input
-              className="m-[1rem] text-sm p-2 min-w-[60%]"
+              className=" text-sm p-2 min-w-[60%]"
               type="email"
               name="mail"
               placeholder="Email"

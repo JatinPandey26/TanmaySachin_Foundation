@@ -1,10 +1,9 @@
 const mail = require("@sendgrid/mail");
-mail.setApiKey(
-  "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"
-);
-export default  function handler(req, res) {
+mail.setApiKey(process.env.NEXT_PUBLIC_MAIL_API_KEY);
+export default function handler(req, res) {
   const data = JSON.parse(req.body);
   console.log(data);
+  const userName = data.name;
   const userEmail = data.email;
 
   const message =
@@ -14,8 +13,10 @@ export default  function handler(req, res) {
     from: "jatin26pandey@gmail.com", // sender address
     to: userEmail, // list of receivers
     subject: `Thankyou for your suppport ${userName}`,
-    text : message
+    text: message,
   };
-  mail.send(details).then(() => {console.log("Success");});
-  res.status(200).json({ name: "John Doe" });
+  mail.send(details).then(() => {
+    console.log("Success");
+  });
+  res.status(200).json({ message: "Success" });
 }
