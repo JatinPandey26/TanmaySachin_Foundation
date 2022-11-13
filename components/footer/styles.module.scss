@@ -1,8 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@900&display=swap");
 
 .wrapper {
-  //margin-top: 5rem;
-  // background-color: #C0D6EC;
+
   background-image: url("/footerbg.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -13,8 +12,7 @@
   > .upperwrapper {
     display: flex;
     justify-content: space-evenly;
-//background-color: aqua;
-    @media screen and (max-width: 650px) {
+    @media screen and (max-width: 950px) {
       flex-direction: column;
       align-items: center;
       > .introWrapper {
@@ -23,7 +21,7 @@
     }
 
     > div {
-      height: 12rem;
+      height: 10rem;
       width: 15rem;
     }
 
@@ -47,6 +45,7 @@
     }
 
     > .addressWrapper {
+      margin-top: 1rem;
       color: #152453;
       text-align: center;
       display: flex;
