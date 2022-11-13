@@ -19,23 +19,36 @@ const Footer = () => {
             Tanmay <br /> Sachin <br /> Foundation
           </p>
         </div>
+
         <div className={styles.addressWrapper}>
-          <h4>Mailing Address</h4>
+          <h4>Reach Us</h4>
           <p>
-            C/O Preeti Sumant Karanje, A-Juve, P-Dalepal-Rajapur District-
-            Ratnagiri, Juve, Ratnagiri Maharashtra - 416702, India
+            A-Juve, P-Dalepal-Rajapur District- Ratnagiri, Juve, Ratnagiri
+            Maharashtra - 416702, India
           </p>
         </div>
         <div className={styles.connectWrapper}>
-          <h4>Connect WIth us</h4>
+          <h4>Connect with Us</h4>
+          <p>989XXXXXXX</p>
         </div>
       </div>
-      <hr className="w-[90%] m-auto h-[0.05rem] bg-[#152453a9] mb-[1rem]"/>
+      <hr className="w-[90%] m-auto h-[0.05rem]  mb-[1rem]" />
       <div className="text-center">
-      <p className="text-[0.8rem] text-[#152453]">© 2022 TanmaySachinFoundation. All rights reserved.</p>
-      <p className="text-[0.8rem] text-[#152453]">
-      Website Designed and Coded By: Aditi Gemini & Jatin Pandey
-      </p>
+        <p className="text-[0.8rem] text-[#152453]">
+          © 2022 TanmaySachinFoundation. All rights reserved.
+        </p>
+        <p className="text-[0.8rem] text-[#152453]">
+          Website Designed and Developed By:
+          <a href="https://www.linkedin.com/in/aditi-gemini-374109227/">
+            {" "}
+            Aditi Gemini
+          </a>{" "}
+          &{" "}
+          <a href="https://www.linkedin.com/in/jatin-pandey-18194b1a0/">
+            {" "}
+            Jatin Pandey
+          </a>
+        </p>
       </div>
     </div>
   );

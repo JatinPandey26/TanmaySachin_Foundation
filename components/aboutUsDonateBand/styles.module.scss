@@ -1,0 +1,51 @@
+.donateBandWrap {
+  margin-top: 2rem;
+  background: #607eaadb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media screen and (max-width: 850px) {
+    display: flex;
+    flex-direction: column;
+  }
+  > div {
+    > img {
+      margin: 1rem;
+      translate: -0% -30%;
+      border-radius: 50%;
+    }
+  }
+  .donateText {
+    padding: 1.5rem;
+    display: flex;
+    word-break: break-word;
+    
+    align-items: center;
+    justify-content: center;
+    @media screen and (max-width: 850px) {
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      translate: 0 -30%;
+    }
+    @media screen and (max-width: 1050px) {
+      display: flex;
+      flex-direction: column;
+    }
+    > .buttons {
+      padding-bottom: 1rem;
+      align-items: center;
+      > button {
+        
+        background-color: white;
+        color: #152453;
+        font-weight: 600;
+        font-size: 0.9rem;
+        padding: 0.8rem 2rem;
+        margin: 1rem;
+        border-radius: 20px;
+
+      }
+    }
+  }
+}
