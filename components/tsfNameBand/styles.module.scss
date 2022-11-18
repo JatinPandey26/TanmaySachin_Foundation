@@ -1,0 +1,16 @@
+.wrapper {
+    margin: auto;
+    margin-top: 6rem;
+    width: 100%;
+    // background-color: #C0D6EC;
+    color: #152453;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    font-size: 1.6rem;
+
+    @media screen and (min-width : "850px") {
+        margin-top: 0rem;
+        margin-bottom: 3rem;
+    }
+}
